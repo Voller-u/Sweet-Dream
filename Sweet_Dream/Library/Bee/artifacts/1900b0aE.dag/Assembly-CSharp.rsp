@@ -377,7 +377,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/Collectable.cs"
+"Assets/Scripts/Inventory.cs"
 "Assets/Scripts/Player_Controller.cs"
+"Assets/Scripts/Yuki.cs"
 -langversion:9.0
 
 /deterministic
