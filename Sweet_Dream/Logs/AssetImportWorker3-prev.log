@@ -1,0 +1,418 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.10f1c1 (fad0948fb939) revision 16437396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit ProfessionalEducation' Language: 'zh' Physical Memory: 16005 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.10f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/Sweet_Dream/Sweet_Dream
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+5988
+Successfully changed project path to: E:/Sweet_Dream/Sweet_Dream
+E:/Sweet_Dream/Sweet_Dream
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 67.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1c1 (fad0948fb939)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.10f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Sweet_Dream/Sweet_Dream/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.10f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.10f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.10f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002198 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.526 seconds
+Domain Reload Profiling:
+	ReloadAssembly (527ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (386ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008740 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 68.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1037ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (745ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.0 KB). Loaded Objects now: 4528.
+Memory consumption went from 155.6 MB to 155.5 MB.
+Total: 2.686400 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.150900 ms MarkObjects: 2.206200 ms  DeleteObjects: 0.065700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 181710.429629 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_29.asset
+  artifactKey: Guid(568d742168867064ca20916b3c4c6531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_29.asset using Guid(568d742168867064ca20916b3c4c6531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1012474e85bc1c4de1f8d36de3eb39') in 0.073121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.613600 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_37.asset
+  artifactKey: Guid(8ce57e298e29ec14db90724b51dfa438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_37.asset using Guid(8ce57e298e29ec14db90724b51dfa438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3394198c5afabab3f3ff76c5db47a6dd') in 0.022141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_39.asset
+  artifactKey: Guid(c100be2492f86c04080df1d6837919a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_39.asset using Guid(c100be2492f86c04080df1d6837919a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa26da0f39bdba8b85f380545fb8e70c') in 0.015238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_44.asset
+  artifactKey: Guid(9a3e6578a924af247ab2471091532105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_44.asset using Guid(9a3e6578a924af247ab2471091532105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f837b3088e7cb6a2cd51f0eeb81538dd') in 0.017759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_47.asset
+  artifactKey: Guid(7bb010ce3b6faa845a308839a8cb9598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_47.asset using Guid(7bb010ce3b6faa845a308839a8cb9598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9366d12e83899316f84ba529c34ee674') in 0.015524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012020 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_53.asset
+  artifactKey: Guid(a5042544841404e4f9f0b63a31cde3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_53.asset using Guid(a5042544841404e4f9f0b63a31cde3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac7d19a8fbf0375d8bdfd6d7e55e3f7') in 0.016624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_56.asset
+  artifactKey: Guid(77356b2dc004167438f95d4425263057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_56.asset using Guid(77356b2dc004167438f95d4425263057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee008ab9bb8e0cc18bb60370bd128d82') in 0.017106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.581166 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_61.asset
+  artifactKey: Guid(b8a96f6385bbe7342ae46ef9d2dfe347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_61.asset using Guid(b8a96f6385bbe7342ae46ef9d2dfe347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37de1483f34ce7fe47e73ae23ff2365') in 0.018478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_63.asset
+  artifactKey: Guid(e623a894a4a18324e8c129fa28f986be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_63.asset using Guid(e623a894a4a18324e8c129fa28f986be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26bf3ccae1e23c805cb59dbe66df20a') in 0.017362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.160850 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_69.asset
+  artifactKey: Guid(6707224d33d845249b0e702fbba4d87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_69.asset using Guid(6707224d33d845249b0e702fbba4d87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425afd9532e9a25729c90de405388bc9') in 0.020599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_73.asset
+  artifactKey: Guid(788ad8c10e0404c44adee9a016d9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_73.asset using Guid(788ad8c10e0404c44adee9a016d9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f16ff6e41ca082e94338eeb962f27b9') in 0.021625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.139319 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_77.asset
+  artifactKey: Guid(7bf94d352ecadd346a69374fdfea79bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_77.asset using Guid(7bf94d352ecadd346a69374fdfea79bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecd91bcd495f9312c59b6a056fba37e') in 0.020723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_81.asset
+  artifactKey: Guid(17ec72bdf89e0a747b030adaf8b65c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_81.asset using Guid(17ec72bdf89e0a747b030adaf8b65c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f415d2b3e2de06834afa1e3b43f37a5') in 0.016159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_84.asset
+  artifactKey: Guid(f9f00d1b2aa29b94a9d730cd8f670ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_84.asset using Guid(f9f00d1b2aa29b94a9d730cd8f670ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a748850c9a1b60d846200f4846e2100') in 0.017618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_93.asset
+  artifactKey: Guid(e692c5f3cc4fa904884e4d69700396ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_93.asset using Guid(e692c5f3cc4fa904884e4d69700396ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c731f8db58a2d40c7b00608a489d633') in 0.015857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_96.asset
+  artifactKey: Guid(6bf9760375f233148968f6d88b523132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_96.asset using Guid(6bf9760375f233148968f6d88b523132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eac6ef81443b543367e08bdd7ce5c9b') in 0.016383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_89.asset
+  artifactKey: Guid(854c5bc58164ff04f91c79dc5aca8dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_89.asset using Guid(854c5bc58164ff04f91c79dc5aca8dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f514513ca544452dc42d362a53a9d0b') in 0.016740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098208 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_101.asset
+  artifactKey: Guid(229bd3ec2faf7bf4e99872c6945eba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_101.asset using Guid(229bd3ec2faf7bf4e99872c6945eba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c61bf9198bf9fbb8d0e73c9188aa74') in 0.022436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_105.asset
+  artifactKey: Guid(15a407c5981b6bf4aba0864e0015be07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_105.asset using Guid(15a407c5981b6bf4aba0864e0015be07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4983dac56bf1fcb9d5359ecde769a11') in 0.017118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_110.asset
+  artifactKey: Guid(f0f3dc9811dcfca4ab12f0edb8b35d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_110.asset using Guid(f0f3dc9811dcfca4ab12f0edb8b35d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de05263aca796cc490cfc8200644295c') in 0.016282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_111.asset
+  artifactKey: Guid(496b01f0857045047a36030c5925b6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_111.asset using Guid(496b01f0857045047a36030c5925b6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2b32ec8bdc375b079232bd639f3f3f') in 0.015385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118231 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_117.asset
+  artifactKey: Guid(8086546093f8ee84abc026199e3ba488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_117.asset using Guid(8086546093f8ee84abc026199e3ba488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8c51509d0cdaa9796a55def6146a52') in 0.019831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_119.asset
+  artifactKey: Guid(292eb991ca059674ab0a60376e4a8ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_119.asset using Guid(292eb991ca059674ab0a60376e4a8ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf041c4fb7ec9d1fa23e755e527919f8') in 0.016133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_127.asset
+  artifactKey: Guid(83864f30ae10ef043bf386fc0768fd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_127.asset using Guid(83864f30ae10ef043bf386fc0768fd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ff2710787468eed90fd840dd8e1534') in 0.018251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_125.asset
+  artifactKey: Guid(739f11af2c5e79643b7dfd1cab1c87df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_125.asset using Guid(739f11af2c5e79643b7dfd1cab1c87df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad4277412d759fe795fdf160b26c4d5') in 0.015398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.117028 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_133.asset
+  artifactKey: Guid(04aa7e5aba01a65468fa98861cdd7308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_133.asset using Guid(04aa7e5aba01a65468fa98861cdd7308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b8020f0f1e822bc87ec51cd074bfd7') in 0.021123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_136.asset
+  artifactKey: Guid(bb151fc863f0f0340a37f44120c4b06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_136.asset using Guid(bb151fc863f0f0340a37f44120c4b06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87d839f1f549233ba2ccb8e9b199aae') in 0.015894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_145.asset
+  artifactKey: Guid(e62246b5b7d47024cb9d897f8725beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_145.asset using Guid(e62246b5b7d47024cb9d897f8725beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c5604f172062c3f515ba277934fe4c') in 0.018290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_140.asset
+  artifactKey: Guid(4c4ca72cc486405449fc5dd044a21aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_140.asset using Guid(4c4ca72cc486405449fc5dd044a21aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e036da7130087e5a49dff85bb59d7e0') in 0.015915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.140147 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_149.asset
+  artifactKey: Guid(bc73e6284d41d384798f23d4ad9c1686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_149.asset using Guid(bc73e6284d41d384798f23d4ad9c1686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6026faf1e833ff261f79529554d258') in 0.017740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_151.asset
+  artifactKey: Guid(03541a139a61cfc49ac5c0b96df19399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_151.asset using Guid(03541a139a61cfc49ac5c0b96df19399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619e005df2d015b58bc731d2d58b6df2') in 0.017384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006324 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_157.asset
+  artifactKey: Guid(97a64063c5971b3499e04c6b25d14acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_157.asset using Guid(97a64063c5971b3499e04c6b25d14acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc82dcc000e3ad8abb10726336a3ab7') in 0.017226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_158.asset
+  artifactKey: Guid(7060f1c15a493ba43890efe003772618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_158.asset using Guid(7060f1c15a493ba43890efe003772618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c2d7f0505d1d03140ed73a75ea4012') in 0.015701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_166.asset
+  artifactKey: Guid(14be7060a6bd2634cadaeeca03c50c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_166.asset using Guid(14be7060a6bd2634cadaeeca03c50c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa797b5ecf204329a62a28791abdf4b') in 0.016744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_169.asset
+  artifactKey: Guid(c2712e054a666be4cb3bcba22ab5b7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_169.asset using Guid(c2712e054a666be4cb3bcba22ab5b7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2646b10f18feb5bb4e0c52f48678172c') in 0.016460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.133008 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_173.asset
+  artifactKey: Guid(d0618de9510eaf44194e03f319b6e7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_173.asset using Guid(d0618de9510eaf44194e03f319b6e7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3cf4f91e99e8003ce6edc4cb826dc5') in 0.018938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_185.asset
+  artifactKey: Guid(67521362ca8265649912d32f63426e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_185.asset using Guid(67521362ca8265649912d32f63426e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cca00374ae1d618bc2aa5fd63b4bd6') in 0.016832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_176.asset
+  artifactKey: Guid(3023c38625f835c4aae27406594d03ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_176.asset using Guid(3023c38625f835c4aae27406594d03ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a107bb64e88446c8d20a4e91f1ce7847') in 0.017078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_177.asset
+  artifactKey: Guid(d3d49897a17427141ace0b6f86a64c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_177.asset using Guid(d3d49897a17427141ace0b6f86a64c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a2a0772801fc897e1496bfc04ffd28') in 0.017211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.190729 seconds.
+  path: Assets/Sprites/Tile palettes/室内地板_189.asset
+  artifactKey: Guid(cbc7cb0fd168c0146956e956b2c18f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/室内地板_189.asset using Guid(cbc7cb0fd168c0146956e956b2c18f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6242eba3da4d960c6274b4f833e25ef5') in 0.020132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.075913 seconds.
+  path: Assets/Sprites/Tile palettes/天台1 1.png
+  artifactKey: Guid(2aaba660b60e64b4ea5ecf1ab11a3dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/天台1 1.png using Guid(2aaba660b60e64b4ea5ecf1ab11a3dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de579a025b0370e609c6adb4ddb145ea') in 0.092653 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
