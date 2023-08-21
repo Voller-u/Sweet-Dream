@@ -15,7 +15,7 @@ E:/Sweet_Dream/Sweet_Dream
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-9376
+4694
 Successfully changed project path to: E:/Sweet_Dream/Sweet_Dream
 E:/Sweet_Dream/Sweet_Dream
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -48,7 +48,7 @@ E:/Sweet_Dream/Sweet_Dream
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 81.89 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 96.35 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1c1 (fad0948fb939)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.10f1c1/Editor/Data/Resources/UnitySubsystems
@@ -64,79 +64,79 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.10f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.10f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.10f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002095 seconds.
+Registered in 0.005919 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 71.52 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 80.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.513 seconds
+- Completed reload, in  0.639 seconds
 Domain Reload Profiling:
-	ReloadAssembly (514ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (640ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (370ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (453ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (86ms)
+			SetupTypeCache (120ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (224ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (254ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (45ms)
+				InitializePlatformSupportModulesInManaged (48ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
+				RefreshPlugins (81ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006861 seconds.
+Registered in 0.008315 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 74.61 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 74.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
+- Completed reload, in  1.161 seconds
 Domain Reload Profiling:
-	ReloadAssembly (980ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (1162ms)
+		BeginReloadAssembly (310ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (120ms)
-		EndReloadAssembly (710ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (242ms)
+		EndReloadAssembly (763ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
+			SetupTypeCache (208ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (384ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (376ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -144,13 +144,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4069 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (56.0 KB). Loaded Objects now: 4528.
-Memory consumption went from 155.6 MB to 155.5 MB.
-Total: 3.365800 ms (FindLiveObjects: 0.380000 ms CreateObjectMapping: 0.146100 ms MarkObjects: 2.755300 ms  DeleteObjects: 0.082900 ms)
+Unloading 4120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.2 KB). Loaded Objects now: 4580.
+Memory consumption went from 158.9 MB to 158.9 MB.
+Total: 3.273500 ms (FindLiveObjects: 0.254600 ms CreateObjectMapping: 0.119500 ms MarkObjects: 2.803700 ms  DeleteObjects: 0.094000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,281 +165,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 267431.862629 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset.png
-  artifactKey: Guid(2700e06d970d112489ff23cfb58c3f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset.png using Guid(2700e06d970d112489ff23cfb58c3f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3014d041031acaa2dc249cd88d12073d') in 0.504066 seconds 
+  Time since last request: 298483.596003 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/artianniugbbd_test SDF.asset
+  artifactKey: Guid(96d4613ba0f37d94f9dd0eb3c2fa2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/artianniugbbd_test SDF.asset using Guid(96d4613ba0f37d94f9dd0eb3c2fa2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a99bf698730b6ba5e20b782c20ba90b') in 0.691143 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1566.148169 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_0.asset
-  artifactKey: Guid(fef1ec3844016314b8660ef9c31a323d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_0.asset using Guid(fef1ec3844016314b8660ef9c31a323d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f694d0a7d78eb1ce2397fe027dce47b4') in 0.035550 seconds 
+  Time since last request: 133.048269 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/artianniugbbd_test SDF.asset
+  artifactKey: Guid(96d4613ba0f37d94f9dd0eb3c2fa2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/artianniugbbd_test SDF.asset using Guid(96d4613ba0f37d94f9dd0eb3c2fa2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3276150419ff71c082bdfdabd18a303f') in 0.568547 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_9.asset
-  artifactKey: Guid(a247d80402c5ad04fa2377a3f64149cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_9.asset using Guid(a247d80402c5ad04fa2377a3f64149cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f7465cf9aac1714854ffb32260e8cf') in 0.016486 seconds 
+  Time since last request: 48.136199 seconds.
+  path: Assets/Thaleah_PixelFont/Thaleah_Demo.unity
+  artifactKey: Guid(180143f4a57f2124dae57257c95bc10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thaleah_PixelFont/Thaleah_Demo.unity using Guid(180143f4a57f2124dae57257c95bc10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f149df887ebc677a3330bdbde51d32') in 0.011147 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_5.asset
-  artifactKey: Guid(5a3238ff1ff0cb749a7d07d7e2efecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_5.asset using Guid(5a3238ff1ff0cb749a7d07d7e2efecef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83719dacfaa88c91325daed5c6ec4d42') in 0.015551 seconds 
+  Time since last request: 168.433917 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/ThaleahFat_TTF SDF.asset
+  artifactKey: Guid(80e443c42dd58b54c96918a21e2787ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/ThaleahFat_TTF SDF.asset using Guid(80e443c42dd58b54c96918a21e2787ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5add0137d4a9b1454763c159ca30b974') in 0.597036 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_6.asset
-  artifactKey: Guid(ee718e5261a7fb94a94a187c44d6fc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_6.asset using Guid(ee718e5261a7fb94a94a187c44d6fc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880fe10231fe450146b152592f3e4364') in 0.015907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_8.asset
-  artifactKey: Guid(b5757da74f02c3c46aa030e00776cd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_8.asset using Guid(b5757da74f02c3c46aa030e00776cd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cb087e69c843d396a59e27f3aea8af') in 0.018863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_4.asset
-  artifactKey: Guid(0185e6916c8f69648ba240856292950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_4.asset using Guid(0185e6916c8f69648ba240856292950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8412ee86245afd73b8f047a67cf352c8') in 0.016822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.114103 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_10.asset
-  artifactKey: Guid(6f0cbabffc00d044fb2b29c9a1f83311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_10.asset using Guid(6f0cbabffc00d044fb2b29c9a1f83311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19466d2f8ebdea229438f8bb0947fe88') in 0.023533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_17.asset
-  artifactKey: Guid(097400b52d4c5a74d9f5377bd1279d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_17.asset using Guid(097400b52d4c5a74d9f5377bd1279d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38296f3e9ec836952214c91cacbd99bc') in 0.022446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_16.asset
-  artifactKey: Guid(3e02c1db3d431ff478dc18c555a70d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_16.asset using Guid(3e02c1db3d431ff478dc18c555a70d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97afb879ed4b7967f13f435eada1757') in 0.016960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_25.asset
-  artifactKey: Guid(ceb738e61f70db3429eb467cb1744786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_25.asset using Guid(ceb738e61f70db3429eb467cb1744786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d503d5f89d88b01cc45850f5fd9b4d9') in 0.024106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_19.asset
-  artifactKey: Guid(03ec0ef9e31c8674ab63606d0e70e32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_19.asset using Guid(03ec0ef9e31c8674ab63606d0e70e32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95586ff79175295925aca88df4eda8bb') in 0.019610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_26.asset
-  artifactKey: Guid(7fddab70af0bc784886a27a87de788b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_26.asset using Guid(7fddab70af0bc784886a27a87de788b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1061215b8477576a63adc9152e799a') in 0.019599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.623832 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_28.asset
-  artifactKey: Guid(2df2e4a5920288243a1409d3db4bbdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_28.asset using Guid(2df2e4a5920288243a1409d3db4bbdae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cee2f29c5b734259f04ef0eeb3b4e21') in 0.020958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.551919 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_31.asset
-  artifactKey: Guid(9cd21f1edb6e77340a2ecf277ff5fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_31.asset using Guid(9cd21f1edb6e77340a2ecf277ff5fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10634ea2e0c3e0cae288380506ea298a') in 0.024766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_39.asset
-  artifactKey: Guid(990c0ccdb75f2d7449abfe5150c43465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_39.asset using Guid(990c0ccdb75f2d7449abfe5150c43465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea09811f4043b4cb3f8af029035ba237') in 0.022978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_41.asset
-  artifactKey: Guid(e574d71e51fe289479c9b14ff4884357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_41.asset using Guid(e574d71e51fe289479c9b14ff4884357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e6a3d6778344db58489ebb7f4e4d08') in 0.018378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_48.asset
-  artifactKey: Guid(66ef7498f97fc4346965f39ef4511857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_48.asset using Guid(66ef7498f97fc4346965f39ef4511857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92531cb55793400011b1bded95f0b997') in 0.024718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.070580 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_49.asset
-  artifactKey: Guid(4ddbd7dfdd7d38a49b2a966ae23b9b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_49.asset using Guid(4ddbd7dfdd7d38a49b2a966ae23b9b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3e5ca79960d266a586db5544ee8550') in 0.019173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_53.asset
-  artifactKey: Guid(4ae3af838ac8a204689f31d4aff1c82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_53.asset using Guid(4ae3af838ac8a204689f31d4aff1c82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b618d912c43ac2452f22286ed2abe397') in 0.020854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_55.asset
-  artifactKey: Guid(ca016c8ce72a3614f8f861df05db17f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_55.asset using Guid(ca016c8ce72a3614f8f861df05db17f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ed45d77f0ca4c408f010ac078c74ac') in 0.023117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.093659 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_58.asset
-  artifactKey: Guid(387f105cd1515754b876157eed8562d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_58.asset using Guid(387f105cd1515754b876157eed8562d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c9e16ffc719fa45e7bdbadbe372d7c') in 0.024631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_66.asset
-  artifactKey: Guid(637d896227278bf40b249ca069435092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_66.asset using Guid(637d896227278bf40b249ca069435092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5a0bc7f207ab3b6589200236a742dd') in 0.031821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_68.asset
-  artifactKey: Guid(bc56d9c7172876841966845f2c52b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_68.asset using Guid(bc56d9c7172876841966845f2c52b7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8985e6970b6b7f5ed59e63dad37429') in 0.018476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_81.asset
-  artifactKey: Guid(fd46680b83eebc14c8a337837816a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_81.asset using Guid(fd46680b83eebc14c8a337837816a063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfc654581d507add22949e544eda949') in 0.021205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_83.asset
-  artifactKey: Guid(b0e0618094e66fd418b936db35d3604b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_83.asset using Guid(b0e0618094e66fd418b936db35d3604b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763e5c27bc35ea146032035dda63a3e4') in 0.029319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_80.asset
-  artifactKey: Guid(25ad368af48ec4a4b8fe94f0da389627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_80.asset using Guid(25ad368af48ec4a4b8fe94f0da389627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081c42bc97da77c51a33ba24536f43fc') in 0.023505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.053421 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_85.asset
-  artifactKey: Guid(7dc91db23cc2418439e4447ac9b64d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_85.asset using Guid(7dc91db23cc2418439e4447ac9b64d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40fc06827461085dd7bb322d6e3f34b') in 0.019577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_93.asset
-  artifactKey: Guid(ca19cee64d839ef4cbea03eaca21ef23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_93.asset using Guid(ca19cee64d839ef4cbea03eaca21ef23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c0b284942c0e98612ab66c2bd78023') in 0.019071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_101.asset
-  artifactKey: Guid(a58b72510779ceb4b8edb495c3e0124a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_101.asset using Guid(a58b72510779ceb4b8edb495c3e0124a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7666d452005033e13815c5ed021cdb') in 0.018290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_105.asset
-  artifactKey: Guid(9823ac34437a78e479fe9f098204446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_105.asset using Guid(9823ac34437a78e479fe9f098204446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73d2b519da1dc81d6416e57224771d6') in 0.018868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_110.asset
-  artifactKey: Guid(657c18b3af8112346930989ab92a187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_110.asset using Guid(657c18b3af8112346930989ab92a187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fc803ca29ae0477508adb69182fa82') in 0.021568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_96.asset
-  artifactKey: Guid(cf6a6c59d9ddc1a42beaf305b6816991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_96.asset using Guid(cf6a6c59d9ddc1a42beaf305b6816991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6726ca2afcd35a812c4111f812e1181b') in 0.024006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_104.asset
-  artifactKey: Guid(a7f472dd4cc558545b4e14471f4adb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_104.asset using Guid(a7f472dd4cc558545b4e14471f4adb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6c6ea1abd885ffb53a0cdb7e896d1d') in 0.023897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.033466 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_112.asset
-  artifactKey: Guid(e5f964662f58bd54d83dabcd1cf1e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_112.asset using Guid(e5f964662f58bd54d83dabcd1cf1e348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828bbd8341ff44e4ea5e4f7ab01845ae') in 0.015314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_116.asset
-  artifactKey: Guid(fcf7fcf6a102058498ecca12f57c82c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_116.asset using Guid(fcf7fcf6a102058498ecca12f57c82c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5c0101efd34b4353a0c653b639b439') in 0.015986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_120.asset
-  artifactKey: Guid(222eeed9f2caa4c40a2eba60ba04f67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_120.asset using Guid(222eeed9f2caa4c40a2eba60ba04f67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9687937d104885c37123de9bc8b05d4f') in 0.027294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_128.asset
-  artifactKey: Guid(92a36fe9c19b36a4e9dbd1d8397d0295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_128.asset using Guid(92a36fe9c19b36a4e9dbd1d8397d0295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2249a9a1c9b7b154e2ef81131fd3af') in 0.023282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_125.asset
-  artifactKey: Guid(ebcc7827684999a4fa1f7b741e91164a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_125.asset using Guid(ebcc7827684999a4fa1f7b741e91164a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180f681bbbad115f27b9e08055f44744') in 0.025109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.071937 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_130.asset
-  artifactKey: Guid(c47f29f978ed2f248ac3d5dd064982ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_130.asset using Guid(c47f29f978ed2f248ac3d5dd064982ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa6fbdcae6d4441c6010662ddf7401b') in 0.019470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_137.asset
-  artifactKey: Guid(fcf87e67e85b9cc47a1e3a214a1f5cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_137.asset using Guid(fcf87e67e85b9cc47a1e3a214a1f5cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56f2519e06f08d83003c93c4677df62') in 0.026699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_145.asset
-  artifactKey: Guid(0b8b56d236d6816419a2a0a1d9a7407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_145.asset using Guid(0b8b56d236d6816419a2a0a1d9a7407f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daf54901db3e4188e18a8f50c902c4c') in 0.022473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_143.asset
-  artifactKey: Guid(ebac75d0cccdc914782ee508bac7c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_143.asset using Guid(ebac75d0cccdc914782ee508bac7c561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a068c0ad4e53e67dca2e468ea0a150') in 0.028512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.094144 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_148.asset
-  artifactKey: Guid(556bd9d7ee31c2843a5260926b877bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_148.asset using Guid(556bd9d7ee31c2843a5260926b877bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326697390f6234c9ee2349f9b81a283f') in 0.025840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Farming Asset Pack/farming-tileset_154.asset
-  artifactKey: Guid(6a8b90fecce0f7f40a0bbc8ac852f5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Farming Asset Pack/farming-tileset_154.asset using Guid(6a8b90fecce0f7f40a0bbc8ac852f5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e6e2b188b0ee995881d15a60253356') in 0.022168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 116.111194 seconds.
-  path: Assets/Sprites/Tile palettes/BackGround.prefab
-  artifactKey: Guid(7ee85a997365f2448b1bb3f3767454ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tile palettes/BackGround.prefab using Guid(7ee85a997365f2448b1bb3f3767454ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f18c8fcd4f96acad46767d6f40bc06a') in 17.926280 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 18.599520 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/ThaleahFat_TTF SDF.asset
+  artifactKey: Guid(80e443c42dd58b54c96918a21e2787ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/ThaleahFat_TTF SDF.asset using Guid(80e443c42dd58b54c96918a21e2787ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f251ed17ff63e15c91372c9c2b3ba5') in 0.549677 seconds 
