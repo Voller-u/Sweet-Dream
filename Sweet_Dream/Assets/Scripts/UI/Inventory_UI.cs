@@ -23,11 +23,12 @@ public class Inventory_UI : MonoBehaviour
         {
             //如果打开了就关闭
             inventory_panel.SetActive(false);
-            Refresh();
+            
         }
         else
         {
             //如果没打开就打开
+            Refresh();
             inventory_panel.SetActive(true);
         }
     }
