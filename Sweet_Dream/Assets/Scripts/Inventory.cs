@@ -18,11 +18,24 @@ public class Inventory
             count = 0;
             maxAllowed = int.MaxValue;
         }
-        public void Add_Item(Collectable item)
+        public void AddItem(Collectable item)
         {
             this.type = item.type;
             this.icon = item.icon;
             count++;
+        }
+
+        public void RemoveItem()
+        {
+            if (count > 0)  //判断是否有
+            {
+                count--;
+                if(count == 0)  //如果删除后没了就删除格子
+                {
+                    this.type = CollectableType.NONE;
+                    this.icon = null;
+                }
+            }
         }
     }
 
@@ -43,7 +56,7 @@ public class Inventory
         {
             if(slot.type == item_to_add.type)
             {
-                slot.Add_Item(item_to_add);
+                slot.AddItem(item_to_add);
                 return;
             }
         }
@@ -51,9 +64,14 @@ public class Inventory
         {
             if(slot.type == CollectableType.NONE)
             {
-                slot.Add_Item(item_to_add);
+                slot.AddItem(item_to_add);
                 break;
             }
         }
+    }
+
+    public void Remove(int index)
+    {
+        slots[index].RemoveItem();
     }
 }

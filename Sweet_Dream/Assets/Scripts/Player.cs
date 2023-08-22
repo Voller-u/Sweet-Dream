@@ -52,4 +52,22 @@ public class Player : MonoBehaviour
             }
         }
     }
+    public void DropItem(Collectable item)
+    {
+        Vector2 spwan_location = transform.position;
+
+        Vector2 spawn_offset = Random.insideUnitCircle * 2f;
+
+        //修正位置，避免扔不出去
+        if (spawn_offset.x < 0){spawn_offset.x -= 0.5f;}
+        else {spawn_offset.x += 0.5f;}
+        if (spawn_offset.y < 0) { spawn_offset.y -= 0.5f; }
+        else { spawn_offset.y += 0.5f; }
+
+        Collectable item_to_drop =
+            Instantiate(item, spwan_location + spawn_offset, Quaternion.identity);
+
+        item_to_drop.rb.AddForce(spawn_offset * 2f, ForceMode2D.Impulse);
+    }
+
 }

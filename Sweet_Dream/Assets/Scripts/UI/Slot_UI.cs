@@ -7,7 +7,7 @@ public class Slot_UI : MonoBehaviour
 {
     public Image itemicon;//物品的图标
     public TextMeshProUGUI quantity_text;//物品的数量
-
+    public GameObject close_button;
     //设置物品
     public void SetItem(Inventory.Slot slot)
     {
@@ -16,7 +16,7 @@ public class Slot_UI : MonoBehaviour
             itemicon.sprite = slot.icon;
             itemicon.color = new Color(1, 1, 1, 1);
             quantity_text.text = slot.count.ToString();
-
+            close_button.SetActive(true);
         }
     }
     //格子为空时
@@ -25,5 +25,6 @@ public class Slot_UI : MonoBehaviour
         itemicon.sprite = null;
         itemicon.color = new Color(1, 1, 1, 0);//设置透明
         quantity_text.text = "";
+        close_button.SetActive(false);
     }
 }

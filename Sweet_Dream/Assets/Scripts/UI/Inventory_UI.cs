@@ -53,4 +53,17 @@ public class Inventory_UI : MonoBehaviour
             }
         }
     }
+
+    public void Remove(int slot_id)
+    {
+        Collectable item_to_drop = GameManager.instance.itemManager.GetItemByType(
+            player.inventory.slots[slot_id].type);
+        if(item_to_drop != null)
+        {
+            player.DropItem(item_to_drop);
+            player.inventory.Remove(slot_id);
+            Refresh();
+        }
+        
+    }
 }
