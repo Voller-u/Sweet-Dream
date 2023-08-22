@@ -23,7 +23,7 @@ public class Inventory_UI : MonoBehaviour
         {
             //如果打开了就关闭
             inventory_panel.SetActive(false);
-            SetUp();
+            Refresh();
         }
         else
         {
@@ -32,7 +32,8 @@ public class Inventory_UI : MonoBehaviour
         }
     }
 
-    void SetUp()
+    //Refresh:更新背包
+    void Refresh()
     {
         //如果slots的数量相等
         if(slots.Count == player.inventory.slots.Count)
