@@ -11,15 +11,17 @@ public class Inventory
         public CollectableType type;
         public int count;//个数
         public int maxAllowed;//最大数量
+        public Sprite icon;//物品的图标
         public Slot()
         {
             type = CollectableType.NONE;
             count = 0;
             maxAllowed = int.MaxValue;
         }
-        public void Add_Item(CollectableType type)
+        public void Add_Item(Collectable item)
         {
-            this.type = type;
+            this.type = item.type;
+            this.icon = item.icon;
             count++;
         }
     }
@@ -35,13 +37,13 @@ public class Inventory
         }
     }
 
-    public void Add(CollectableType type_to_add)
+    public void Add(Collectable item_to_add)
     {
         foreach(Slot slot in slots)
         {
-            if(slot.type == type_to_add)
+            if(slot.type == item_to_add.type)
             {
-                slot.Add_Item(type_to_add);
+                slot.Add_Item(item_to_add);
                 return;
             }
         }
@@ -49,7 +51,8 @@ public class Inventory
         {
             if(slot.type == CollectableType.NONE)
             {
-                slot.Add_Item(type_to_add);
+                slot.Add_Item(item_to_add);
+                break;
             }
         }
     }
