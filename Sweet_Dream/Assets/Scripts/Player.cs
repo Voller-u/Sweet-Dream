@@ -24,16 +24,33 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     protected void Update()
     {
-        float v_x = Input.GetAxisRaw("Horizontal");
-        float v_y = Input.GetAxisRaw("Vertical");
-        direction = new Vector3(v_x, v_y);
-        animation_change(direction);
-        
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Vector3Int position = new Vector3Int((int)transform.position.x,
+                (int)transform.position.y, 0);
+
+            if (GameManager.instance.tileManager.IsInteractable(position))
+            {
+                //TODO œÏ”¶
+                GameManager.instance.tileManager.SetInteracted(position);
+            }
+        }
+
+        Move();
     }
 
     protected void FixedUpdate()
     {
         transform.position += direction * speed * Time.deltaTime;
+    }
+
+    public void Move()
+    {
+        float v_x = Input.GetAxisRaw("Horizontal");
+        float v_y = Input.GetAxisRaw("Vertical");
+        direction = new Vector3(v_x, v_y);
+        animation_change(direction);
     }
 
     protected void animation_change(Vector3 direction)

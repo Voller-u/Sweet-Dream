@@ -7337,6 +7337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemManager: {fileID: 0}
+  tileManager: {fileID: 0}
 --- !u!4 &832596992
 Transform:
   m_ObjectHideFlags: 0
@@ -8286,7 +8287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2466752588650163746, guid: b2872932197cb8847b1260e77faabaf9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.52
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2466752588650163746, guid: b2872932197cb8847b1260e77faabaf9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8478,6 +8479,7 @@ GameObject:
   - component: {fileID: 1461484730}
   - component: {fileID: 1461484729}
   - component: {fileID: 1461484728}
+  - component: {fileID: 1461484731}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8551,6 +8553,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1461484731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461484727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3618e6936db7f7f4e95db0b2b93889f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2118998929}
 --- !u!1001 &1610692841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14679,6 +14694,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dccd87fcda4154f94f8bb567d5f7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &2118998929 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2466752588650163746, guid: b2872932197cb8847b1260e77faabaf9, type: 3}
+  m_PrefabInstance: {fileID: 1269269624}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2121971860 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7191645355501257495, guid: 83eced56579db2142a8d8881421bcbc6, type: 3}
