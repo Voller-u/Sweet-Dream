@@ -14,8 +14,15 @@ public class TileManager : MonoBehaviour
         //遍历瓦片地图
         foreach(var position in interactable_map.cellBounds.allPositionsWithin)
         {
-            //将指定位置的瓦片设置成指定的瓦片
-            interactable_map.SetTile(position, hidden_interactable_tile);
+            TileBase tile = interactable_map.GetTile(position);
+
+            //THENAME:我还没想好要不要用这一块
+
+            if(tile != null && tile.name == "THENAME")
+            {
+                //将指定位置的瓦片设置成指定的瓦片
+                interactable_map.SetTile(position, hidden_interactable_tile);
+            }
 
         }
     }
