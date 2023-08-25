@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
             }
         }
     }
-    public void DropItem(Collectable item)
+    public void DropItem(Item item)
     {
         Vector2 spwan_location = transform.position;
 
@@ -81,7 +81,7 @@ public class Player : MonoBehaviour
         if (spawn_offset.y < 0) { spawn_offset.y -= 0.5f; }
         else { spawn_offset.y += 0.5f; }
 
-        Collectable item_to_drop =
+        Item item_to_drop =
             Instantiate(item, spwan_location + spawn_offset, Quaternion.identity);
 
         item_to_drop.rb.AddForce(spawn_offset * 2f, ForceMode2D.Impulse);

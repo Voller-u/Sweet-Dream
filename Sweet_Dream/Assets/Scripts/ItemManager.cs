@@ -5,32 +5,32 @@ using UnityEngine;
 public class ItemManager : MonoBehaviour
 {
     //collectable_items: 收集物数组，用于存放预制件
-    public Collectable[] collectable_items;
+    public Item[] items;
 
     //dictionary_items_dict: 字典，通过种类查找相应预制件
-    private Dictionary<CollectableType, Collectable> collectable_items_dict = new Dictionary<CollectableType, Collectable>();
+    private Dictionary<string, Item> name_to_item_dict = new Dictionary<string, Item>();
 
     private void Awake()
     {
-        foreach(Collectable item in collectable_items)
+        foreach(Item item in items)
         {
             AddItem(item);
         }
     }
 
-    private void AddItem(Collectable item)
+    private void AddItem(Item item)
     {
-        if (!collectable_items_dict.ContainsKey(item.type))
+        if (!name_to_item_dict.ContainsKey(item.data.item_name))
         {
-            collectable_items_dict.Add(item.type,item);
+            name_to_item_dict.Add(item.data.item_name,item);
         }
     }
 
-    public Collectable GetItemByType(CollectableType type)
+    public Item GetItemByName(string key)
     {
-        if (collectable_items_dict.ContainsKey(type))
+        if (name_to_item_dict.ContainsKey(key))
         {
-            return collectable_items_dict[type];
+            return name_to_item_dict[key];
         }
         return null;
     }

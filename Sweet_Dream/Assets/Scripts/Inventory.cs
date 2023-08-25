@@ -8,20 +8,20 @@ public class Inventory
     [System.Serializable]
     public class Slot
     {
-        public CollectableType type;
+        public string item_name;
         public int count;//个数
         public int maxAllowed;//最大数量
         public Sprite icon;//物品的图标
         public Slot()
         {
-            type = CollectableType.NONE;
+            item_name = "";
             count = 0;
             maxAllowed = int.MaxValue;
         }
-        public void AddItem(Collectable item)
+        public void AddItem(Item item)
         {
-            this.type = item.type;
-            this.icon = item.icon;
+            this.item_name = item.data.item_name;
+            this.icon = item.data.icon;
             count++;
         }
 
@@ -32,7 +32,7 @@ public class Inventory
                 count--;
                 if(count == 0)  //如果删除后没了就删除格子
                 {
-                    this.type = CollectableType.NONE;
+                    this.item_name = "";
                     this.icon = null;
                 }
             }
@@ -50,11 +50,11 @@ public class Inventory
         }
     }
 
-    public void Add(Collectable item_to_add)
+    public void Add(Item item_to_add)
     {
         foreach(Slot slot in slots)
         {
-            if(slot.type == item_to_add.type)
+            if(slot.item_name == item_to_add.data.item_name)
             {
                 slot.AddItem(item_to_add);
                 return;
@@ -62,7 +62,7 @@ public class Inventory
         }
         foreach(Slot slot in slots)
         {
-            if(slot.type == CollectableType.NONE)
+            if(slot.item_name == "")
             {
                 slot.AddItem(item_to_add);
                 break;

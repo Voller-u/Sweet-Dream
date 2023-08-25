@@ -42,7 +42,7 @@ public class Inventory_UI : MonoBehaviour
             for(int i = 0; i < slots.Count; i++)
             {
                 //如果这个格子有东西
-                if(player.inventory.slots[i].type != CollectableType.NONE)
+                if(player.inventory.slots[i].item_name != "")
                 {
                     slots[i].SetItem(player.inventory.slots[i]);
                 }
@@ -56,8 +56,8 @@ public class Inventory_UI : MonoBehaviour
 
     public void Remove(int slot_id)
     {
-        Collectable item_to_drop = GameManager.instance.itemManager.GetItemByType(
-            player.inventory.slots[slot_id].type);
+        Item item_to_drop = GameManager.instance.itemManager.GetItemByName(
+            player.inventory.slots[slot_id].item_name);
         if(item_to_drop != null)
         {
             player.DropItem(item_to_drop);
