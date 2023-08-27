@@ -22,8 +22,13 @@ public class Toolbar_UI : MonoBehaviour
     {
         if(toolbar_slots.Count == 9)
         {
+            if(selected_slot != null)
+            {
+                selected_slot.SetHighlight(false);
+            }
             selected_slot = toolbar_slots[index];
-            Debug.Log("Selecetd slot:" + selected_slot.name);
+            selected_slot.SetHighlight(true);
+            // Debug.Log("Selecetd slot:" + selected_slot.name);
         }
     }
 
