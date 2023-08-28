@@ -15,7 +15,7 @@ E:/Sweet_Dream/Sweet_Dream
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-14444
+1280
 Successfully changed project path to: E:/Sweet_Dream/Sweet_Dream
 E:/Sweet_Dream/Sweet_Dream
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -48,7 +48,7 @@ E:/Sweet_Dream/Sweet_Dream
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 74.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 73.17 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1c1 (fad0948fb939)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.10f1c1/Editor/Data/Resources/UnitySubsystems
@@ -64,93 +64,95 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.10f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.10f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.10f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001935 seconds.
+Registered in 0.001918 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 67.09 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 68.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.437 seconds
+- Completed reload, in  0.452 seconds
 Domain Reload Profiling:
-	ReloadAssembly (437ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (453ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (323ms)
-			LoadAssemblies (45ms)
+		EndReloadAssembly (335ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (68ms)
+			SetupTypeCache (70ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (201ms)
+			SetupLoadedEditorAssemblies (210ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
+				InitializePlatformSupportModulesInManaged (40ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
+				RefreshPlugins (69ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (64ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006370 seconds.
+Registered in 0.007949 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 66.30 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 66.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.878 seconds
+- Completed reload, in  0.861 seconds
 Domain Reload Profiling:
-	ReloadAssembly (878ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (861ms)
+		BeginReloadAssembly (173ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (117ms)
-		EndReloadAssembly (623ms)
-			LoadAssemblies (57ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (160ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (331ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (321ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4128 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 38 unused Assets / (56.1 KB). Loaded Objects now: 4589.
-Memory consumption went from 159.2 MB to 159.2 MB.
-Total: 2.753200 ms (FindLiveObjects: 0.211000 ms CreateObjectMapping: 0.105800 ms MarkObjects: 2.371000 ms  DeleteObjects: 0.064800 ms)
+Memory consumption went from 159.3 MB to 159.2 MB.
+Total: 2.902500 ms (FindLiveObjects: 0.208000 ms CreateObjectMapping: 0.118500 ms MarkObjects: 2.507400 ms  DeleteObjects: 0.066300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,3 +165,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 290823.923770 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_1.asset
+  artifactKey: Guid(86c4bf1ab94be4247b143dba19963b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_1.asset using Guid(86c4bf1ab94be4247b143dba19963b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b07811b8f0e5b915a48e4400f8589fe') in 0.161851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_30.asset
+  artifactKey: Guid(d5b2ca124a353e644a78accdd96f42ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_30.asset using Guid(d5b2ca124a353e644a78accdd96f42ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc094be34e87b82f337520b320fd0c53') in 0.021509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_36.asset
+  artifactKey: Guid(00323d5cef260b145bf8bdd15b9b0c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_36.asset using Guid(00323d5cef260b145bf8bdd15b9b0c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b86923956af36b3965e4de9804d8b9') in 0.019910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_39.asset
+  artifactKey: Guid(5ab14f8d68bd8ea4389dbf65a7872729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_39.asset using Guid(5ab14f8d68bd8ea4389dbf65a7872729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b542600c653b4ab99f0b8a63f4a350') in 0.018702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_23.asset
+  artifactKey: Guid(9c0a6134677efe7499ce7724c2a0a832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_23.asset using Guid(9c0a6134677efe7499ce7724c2a0a832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14731eba855aea817f777f372a32fa11') in 0.020081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_4.asset
+  artifactKey: Guid(57ac61a8268bed34080a58f3314ae1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_4.asset using Guid(57ac61a8268bed34080a58f3314ae1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b11196d69801a18acca6097870ca305') in 0.018363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_22.asset
+  artifactKey: Guid(e9c5cff380fe63e46b9e12fa155a94ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_22.asset using Guid(e9c5cff380fe63e46b9e12fa155a94ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a8aab08128a3fd744cf8d259d8e7db') in 0.018527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_21.asset
+  artifactKey: Guid(f93b757aa0c380a4aaa07d14b9fae6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_21.asset using Guid(f93b757aa0c380a4aaa07d14b9fae6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742315734614712341a4b135d4c2ddf5') in 0.019477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_16.asset
+  artifactKey: Guid(d9590340b26390e45ba037b009af99a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_16.asset using Guid(d9590340b26390e45ba037b009af99a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f41d18ef4fc5f7eee584ba3524dc8a7') in 0.017832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_2.asset
+  artifactKey: Guid(359051fba5dc79e40b8579db9f4ad516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_2.asset using Guid(359051fba5dc79e40b8579db9f4ad516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805779e0942d47270811a148d1341205') in 0.018719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_17.asset
+  artifactKey: Guid(7da45ba1f971e3640b2ddd813b9e640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_17.asset using Guid(7da45ba1f971e3640b2ddd813b9e640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dceb9a22b1690b72d6effbd48dad1f6e') in 0.018472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_26.asset
+  artifactKey: Guid(6e4a97e638a84284ba447ad077439f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_26.asset using Guid(6e4a97e638a84284ba447ad077439f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910e85775bc761a558f93a9a7ec08451') in 0.018639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_18.asset
+  artifactKey: Guid(b8bb179de8aba6f4ca4b1b11797884c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_18.asset using Guid(b8bb179de8aba6f4ca4b1b11797884c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030d3358cd2580be3d46828210b5ebcc') in 0.018242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_20.asset
+  artifactKey: Guid(ffa4d1e6205a1f34888befac5b749734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_20.asset using Guid(ffa4d1e6205a1f34888befac5b749734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660640d4cbbe71ffd9f9cd1b8cdcc2ef') in 0.018264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_10.asset
+  artifactKey: Guid(c1a6ffd1a1ae083469e429cd53c95d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_10.asset using Guid(c1a6ffd1a1ae083469e429cd53c95d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c27e82a3e5ca089f46c12005f7ee286') in 0.017104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_25.asset
+  artifactKey: Guid(ea6eff765529d154b849bb9c3704939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_25.asset using Guid(ea6eff765529d154b849bb9c3704939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afa5dc811361392c8d3e1907383eb99') in 0.020065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_28.asset
+  artifactKey: Guid(d6f29077db78ed24faca79be4eec73c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_28.asset using Guid(d6f29077db78ed24faca79be4eec73c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca1d98347fc03c38327014407cca0c2') in 0.017702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_11.asset
+  artifactKey: Guid(51b6fa9c360bb5748a1809a746f8f023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_11.asset using Guid(51b6fa9c360bb5748a1809a746f8f023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecc70a1fc114d41b435676f968faf9b') in 0.017117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_6.asset
+  artifactKey: Guid(969ff9a7db37e814a883131a1663eea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_6.asset using Guid(969ff9a7db37e814a883131a1663eea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c5d8e7f8e966b3821beba06cb13fd5') in 0.019196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_43.asset
+  artifactKey: Guid(a1dee8e68d2279a4ba006a555fa2d828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_43.asset using Guid(a1dee8e68d2279a4ba006a555fa2d828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba63af491f1a2e6c4e1cf8461329075') in 0.018621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Tile palettes/farming-tileset_42.asset
+  artifactKey: Guid(db352f8edb8876148aee9ffa19997db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tile palettes/farming-tileset_42.asset using Guid(db352f8edb8876148aee9ffa19997db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2323aabbc0cf64cd4d6ec2b5e34cdf57') in 0.019336 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

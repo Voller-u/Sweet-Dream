@@ -1,15 +1,20 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CameraFollwed
     - Collectable
+    - GameManager
     - Inventory_UI
+    - Item
+    - ItemData
+    - ItemManager
     - Player
     - Slot_UI
+    - Toolbar_UI
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
@@ -40,11 +45,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationBlendTree.Node
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -52,11 +54,13 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
   serializedClasses:
     Assembly-CSharp:
@@ -87,6 +91,8 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
@@ -94,6 +100,117 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Toolbar_UI
+    methodName: SelectSlot
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Toolbar_UI
+    methodName: SelectSlot
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Toolbar_UI
+    methodName: SelectSlot
+  - assembly: Assembly-CSharp
+    fullTypeName: Toolbar_UI
+    methodName: SelectSlot
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Toolbar_UI
+    methodName: SelectSlot
+  - assembly: Assembly-CSharp
+    fullTypeName: Toolbar_UI
+    methodName: SelectSlot
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Toolbar_UI
+    methodName: SelectSlot
+  - assembly: Assembly-CSharp
+    fullTypeName: Toolbar_UI
+    methodName: SelectSlot
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Toolbar_UI
+    methodName: SelectSlot
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
+  - assembly: Assembly-CSharp
+    fullTypeName: Inventory_UI
+    methodName: Remove
   - assembly: Assembly-CSharp
     fullTypeName: Inventory_UI
     methodName: ToggleInventory
@@ -134,37 +251,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1570}
     - Class: 114
-      Script: {instanceID: 2350}
+      Script: {instanceID: 2314}
     - Class: 114
-      Script: {instanceID: 2408}
+      Script: {instanceID: 2352}
     - Class: 114
-      Script: {instanceID: 2862}
+      Script: {instanceID: 2410}
     - Class: 114
-      Script: {instanceID: 3124}
+      Script: {instanceID: 2866}
     - Class: 114
-      Script: {instanceID: 3488}
+      Script: {instanceID: 3104}
     - Class: 114
-      Script: {instanceID: 4644}
+      Script: {instanceID: 3130}
     - Class: 114
-      Script: {instanceID: 4780}
+      Script: {instanceID: 3178}
     - Class: 114
-      Script: {instanceID: 5116}
+      Script: {instanceID: 3496}
     - Class: 114
-      Script: {instanceID: 5602}
+      Script: {instanceID: 4594}
     - Class: 114
-      Script: {instanceID: 6046}
+      Script: {instanceID: 4654}
     - Class: 114
-      Script: {instanceID: 6790}
+      Script: {instanceID: 4790}
     - Class: 114
-      Script: {instanceID: 6994}
+      Script: {instanceID: 5126}
     - Class: 114
-      Script: {instanceID: 7412}
+      Script: {instanceID: 5338}
     - Class: 114
-      Script: {instanceID: 7848}
+      Script: {instanceID: 5614}
     - Class: 114
-      Script: {instanceID: 8260}
+      Script: {instanceID: 5960}
     - Class: 114
-      Script: {instanceID: 40930}
+      Script: {instanceID: 6058}
+    - Class: 114
+      Script: {instanceID: 6072}
+    - Class: 114
+      Script: {instanceID: 6804}
+    - Class: 114
+      Script: {instanceID: 7008}
+    - Class: 114
+      Script: {instanceID: 7426}
+    - Class: 114
+      Script: {instanceID: 7862}
+    - Class: 114
+      Script: {instanceID: 8274}
+    - Class: 114
+      Script: {instanceID: 8360}
+    - Class: 114
+      Script: {instanceID: 9794}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -270,6 +403,12 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 9b25032ca6c3c65379ce924b3f5b48df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ItemData
+  - hash:
+      serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -288,7 +427,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerUpMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 069765c313dd2f4262fb446cd40aad6e
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Collectable
@@ -334,6 +473,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a265a4918bb62ab7be85bab8f1fa0e8e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TileManager
   - hash:
       serializedVersion: 2
       Hash: 27e5341178f188b89bdc6495710b590c
@@ -396,6 +541,12 @@ ScriptsOnlyBuild:
     className: CoroutineRunner
   - hash:
       serializedVersion: 2
+      Hash: a87dadfb1e1775412bec4cd97d114dd4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Slot_UI
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
@@ -412,6 +563,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 2c5b4045db3632ecf3c0f560a535edab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Toolbar_UI
   - hash:
       serializedVersion: 2
       Hash: 8fbc134fd506d97c845cf2b715231396
@@ -636,6 +793,12 @@ ScriptsOnlyBuild:
     className: SpriteShapeGeometryCache
   - hash:
       serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraFollwed
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -748,6 +911,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: ObjectSpin
+  - hash:
+      serializedVersion: 2
+      Hash: 1338a14211be79ff81ec931c540bc184
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ItemManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -880,6 +1049,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d7d8923eb83401894ddb44851e2ac3d4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Item
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1128,7 +1303,7 @@ ScriptsOnlyBuild:
     className: TMP_TextEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 73b02571be12ee7fd581393a058be601
+      Hash: 0a3e3b19ff199fff1c6c3470cb1e9785
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -1212,7 +1387,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 73b02571be12ee7fd581393a058be601
+      Hash: 0a3e3b19ff199fff1c6c3470cb1e9785
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Yuki
@@ -1338,16 +1513,16 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
+      Hash: 3b6529c3dc646e99d69ea69339892b4d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 1f5f4e8c179b0b06d5ab6efd9ade27f2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Slot_UI
   platform: 19
   scenePathNames:
   - Assets/Scenes/Rooftop.unity
