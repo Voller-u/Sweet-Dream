@@ -86,5 +86,11 @@ public class Player : MonoBehaviour
 
         item_to_drop.rb.AddForce(spawn_offset * 2f, ForceMode2D.Impulse);
     }
-
+    public void DropItem(Item item,int num_to_drop)
+    {
+        for(int i = 0; i < num_to_drop; i++)
+        {
+            DropItem(item);
+        }
+    }
 }
