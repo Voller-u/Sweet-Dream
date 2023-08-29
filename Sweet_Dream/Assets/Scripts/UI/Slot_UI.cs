@@ -6,6 +6,9 @@ using TMPro;
 public class Slot_UI : MonoBehaviour
 {
     public int slot_id;
+
+    public Inventory inventory;
+
     public Image itemicon;//物品的图标
     public TextMeshProUGUI quantity_text;//物品的数量
     public GameObject close_button;//丢弃按钮

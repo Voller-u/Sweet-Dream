@@ -6,7 +6,7 @@ public class Inventory_UI : MonoBehaviour
 {
     public GameObject inventory_panel;
 
-    public Player player;
+    public string inventory_name;
 
     public List<Slot_UI> slots = new List<Slot_UI>();
 
@@ -15,6 +15,15 @@ public class Inventory_UI : MonoBehaviour
     private Slot_UI dragged_slot; //dragged_slot: 被拖拽的slot
 
     private Image dragged_icon;
+
+    private Inventory inventory;
+
+    private void Start()
+    {
+        inventory = GameManager.instance.player.inventory.GetInventoryByName(inventory_name);
+        SetUpSlots();
+        Refresh();
+    }
 
     private void Awake()
     {
@@ -31,17 +40,20 @@ public class Inventory_UI : MonoBehaviour
     }
     public void ToggleInventory()
     {
-        if (inventory_panel.activeSelf)
+        if(inventory_panel != null)
         {
-            //如果打开了就关闭
-            inventory_panel.SetActive(false);
-            
-        }
-        else
-        {
-            //如果没打开就打开
-            Refresh();
-            inventory_panel.SetActive(true);
+            if (inventory_panel.activeSelf)
+            {
+                //如果打开了就关闭
+                inventory_panel.SetActive(false);
+
+            }
+            else
+            {
+                //如果没打开就打开
+                Refresh();
+                inventory_panel.SetActive(true);
+            }
         }
     }
 
@@ -49,14 +61,14 @@ public class Inventory_UI : MonoBehaviour
     void Refresh()
     {
         //如果slots的数量相等
-        if(slots.Count == player.inventory.slots.Count)
+        if(slots.Count == inventory.slots.Count)
         {
             for(int i = 0; i < slots.Count; i++)
             {
                 //如果这个格子有东西
-                if(player.inventory.slots[i].item_name != "")
+                if(inventory.slots[i].item_name != "")
                 {
-                    slots[i].SetItem(player.inventory.slots[i]);
+                    slots[i].SetItem(inventory.slots[i]);
                 }
                 else
                 {
@@ -69,13 +81,13 @@ public class Inventory_UI : MonoBehaviour
     public void Remove()
     {
         Item item_to_drop = GameManager.instance.itemManager.GetItemByName(
-            player.inventory.slots[dragged_slot.slot_id].item_name);
+            inventory.slots[dragged_slot.slot_id].item_name);
         if(item_to_drop != null)
         {
-                player.DropItem(item_to_drop,
-                player.inventory.slots[dragged_slot.slot_id].count);
-                player.inventory.Remove(dragged_slot.slot_id,
-                    player.inventory.slots[dragged_slot.slot_id].count);
+            GameManager.instance.player.DropItem(item_to_drop,
+                inventory.slots[dragged_slot.slot_id].count);
+            inventory.Remove(dragged_slot.slot_id,
+                inventory.slots[dragged_slot.slot_id].count);
             Refresh();
         }
         dragged_slot = null;
@@ -83,11 +95,11 @@ public class Inventory_UI : MonoBehaviour
     public void Remove(int slot_id)
     {
         Item item_to_drop = GameManager.instance.itemManager.GetItemByName(
-            player.inventory.slots[slot_id].item_name);
+            inventory.slots[slot_id].item_name);
         if (item_to_drop != null)
         {
-            player.DropItem(item_to_drop);
-            player.inventory.Remove(slot_id);
+            GameManager.instance.player.DropItem(item_to_drop);
+            inventory.Remove(slot_id);
             Refresh();
         }
     }
@@ -125,7 +137,8 @@ public class Inventory_UI : MonoBehaviour
 
     public void SlotDrop(Slot_UI slot)
     {
-        Debug.Log("Dropped:" + dragged_slot.name + "on " + slot.name);
+        dragged_slot.inventory.MoveSlot(dragged_slot.slot_id, slot.slot_id);
+        Refresh();
     }
 
     private void MoveToMousePosition(GameObject to_move)
@@ -138,6 +151,17 @@ public class Inventory_UI : MonoBehaviour
                 canvas.transform as RectTransform, Input.mousePosition, null, out position);
 
             to_move.transform.position = canvas.transform.TransformPoint(position);
+        }
+    }
+
+    void SetUpSlots()
+    {
+        int count = 0;
+        foreach(Slot_UI slot in slots)
+        {
+            slot.slot_id = count;
+            count++;
+            slot.inventory = inventory;
         }
     }
 }

@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory_panel: {fileID: 357943262}
-  player: {fileID: 2118998924}
+  inventory_name: Backpack
   slots:
   - {fileID: 829469638}
   - {fileID: 2106885240}
@@ -584,6 +584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 120568655}
   - component: {fileID: 120568656}
+  - component: {fileID: 120568657}
   m_Layer: 5
   m_Name: Toolbar
   m_TagString: Untagged
@@ -635,6 +636,31 @@ MonoBehaviour:
   - {fileID: 1129654415}
   - {fileID: 1390687150}
   - {fileID: 809417490}
+--- !u!114 &120568657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120568654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd072381dbd86b4cbc3e57d7278aa5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory_panel: {fileID: 0}
+  inventory_name: Toolbar
+  slots:
+  - {fileID: 163840144}
+  - {fileID: 1154084847}
+  - {fileID: 447105900}
+  - {fileID: 1885690391}
+  - {fileID: 1539059717}
+  - {fileID: 1462760294}
+  - {fileID: 1129654415}
+  - {fileID: 1390687150}
+  - {fileID: 809417490}
+  canvas: {fileID: 0}
 --- !u!224 &163840142 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7310532021101368987, guid: 6c0453477ffda78468c61c10d2335161, type: 3}
@@ -6498,6 +6524,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83eced56579db2142a8d8881421bcbc6, type: 3}
+--- !u!1 &341880620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2466752588650163748, guid: b2872932197cb8847b1260e77faabaf9, type: 3}
+  m_PrefabInstance: {fileID: 1269269624}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &357943262
 GameObject:
   m_ObjectHideFlags: 0
@@ -8468,6 +8499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemManager: {fileID: 0}
   tileManager: {fileID: 0}
+  player: {fileID: 0}
 --- !u!4 &832596992
 Transform:
   m_ObjectHideFlags: 0
@@ -14099,22 +14131,29 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7310532021101368987, guid: 83eced56579db2142a8d8881421bcbc6, type: 3}
   m_PrefabInstance: {fileID: 57434624}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2118998924 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2466752588650163745, guid: b2872932197cb8847b1260e77faabaf9, type: 3}
-  m_PrefabInstance: {fileID: 1269269624}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61dccd87fcda4154f94f8bb567d5f7d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &2118998929 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2466752588650163746, guid: b2872932197cb8847b1260e77faabaf9, type: 3}
   m_PrefabInstance: {fileID: 1269269624}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2118998934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341880620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c5e1d009ac1c614387ab809a1215712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backpack:
+    slots: []
+  backpack_slotcount: 28
+  toolbar:
+    slots: []
+  toolbar_slotcount: 9
 --- !u!1001 &2201123778587243320
 PrefabInstance:
   m_ObjectHideFlags: 0

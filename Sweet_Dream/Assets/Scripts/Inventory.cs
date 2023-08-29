@@ -18,11 +18,40 @@ public class Inventory
             count = 0;
             maxAllowed = int.MaxValue;
         }
+
+        public bool IsEmpty
+        {
+            get
+            {
+                if(item_name == "" && count == 0)
+                {
+                    return true;
+                }
+                return false;
+            }
+        }
+
         public void AddItem(Item item)
         {
             this.item_name = item.data.item_name;
             this.icon = item.data.icon;
             count++;
+        }
+        public void AddItem(string item_name,Sprite icon,int max_allowed)
+        {
+            this.item_name = item_name;
+            this.icon = icon;
+            count++;
+            this.maxAllowed = max_allowed;
+        }
+
+        public bool CanAddItem(string item_name)
+        {
+            if(this.item_name == item_name && count < maxAllowed)
+            {
+                return true;
+            }
+            return false;
         }
 
         public void RemoveItem()
@@ -54,7 +83,7 @@ public class Inventory
     {
         foreach(Slot slot in slots)
         {
-            if(slot.item_name == item_to_add.data.item_name)
+            if(slot.item_name == item_to_add.data.item_name && slot.CanAddItem(item_to_add.data.item_name))
             {
                 slot.AddItem(item_to_add);
                 return;
@@ -83,6 +112,18 @@ public class Inventory
             {
                 Remove(index);
             }
+        }
+    }
+
+    public void MoveSlot(int from_index,int to_index)
+    {
+        Slot from_slot = slots[from_index];
+        Slot to_slot = slots[to_index];
+
+        if(to_slot.IsEmpty || to_slot.CanAddItem(from_slot.item_name))
+        {
+            to_slot.AddItem(from_slot.item_name, from_slot.icon, from_slot.maxAllowed);
+            from_slot.RemoveItem();
         }
     }
 }

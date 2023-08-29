@@ -10,11 +10,12 @@ public class Player : MonoBehaviour
     
     protected Vector3 direction;
 
-    public Inventory inventory;
+    public InventoryManager inventory;
+
     // Start is called before the first frame update
     protected void Awake()
     {
-        inventory = new Inventory(28);
+        inventory = GetComponent<InventoryManager>();
     }
     protected void Start()
     {

@@ -381,6 +381,7 @@
 "Assets/Scripts/Collectable.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Inventory.cs"
+"Assets/Scripts/InventoryManager.cs"
 "Assets/Scripts/Item.cs"
 "Assets/Scripts/ItemManager.cs"
 "Assets/Scripts/Player.cs"
