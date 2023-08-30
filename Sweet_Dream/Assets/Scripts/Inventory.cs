@@ -115,15 +115,18 @@ public class Inventory
         }
     }
 
-    public void MoveSlot(int from_index,int to_index)
+    public void MoveSlot(int from_index,int to_index,Inventory to_inventory,int num_to_move)
     {
         Slot from_slot = slots[from_index];
-        Slot to_slot = slots[to_index];
+        Slot to_slot = to_inventory.slots[to_index];
 
         if(to_slot.IsEmpty || to_slot.CanAddItem(from_slot.item_name))
         {
-            to_slot.AddItem(from_slot.item_name, from_slot.icon, from_slot.maxAllowed);
-            from_slot.RemoveItem();
+            for(int i = 0; i < num_to_move; i++)
+            {
+                to_slot.AddItem(from_slot.item_name, from_slot.icon, from_slot.maxAllowed);
+                from_slot.RemoveItem();
+            }
         }
     }
 }
