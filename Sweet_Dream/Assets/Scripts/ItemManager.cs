@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class ItemManager : MonoBehaviour
 {
-    //collectable_items: ÊÕ¼¯ÎïÊý×é£¬ÓÃÓÚ´æ·ÅÔ¤ÖÆ¼þ
+    //collectable_items: ï¿½Õ¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬ï¿½ï¿½ï¿½Ú´ï¿½ï¿½Ô¤ï¿½Æ¼ï¿½
     public Item[] items;
 
-    //dictionary_items_dict: ×Öµä£¬Í¨¹ýÖÖÀà²éÕÒÏàÓ¦Ô¤ÖÆ¼þ
+    //dictionary_items_dict: ï¿½Öµä£¬Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦Ô¤ï¿½Æ¼ï¿½
     private Dictionary<string, Item> name_to_item_dict = new Dictionary<string, Item>();
 
     private void Awake()
     {
-        foreach(Item item in items)
+        foreach (Item item in items)
         {
             AddItem(item);
         }
@@ -22,7 +22,7 @@ public class ItemManager : MonoBehaviour
     {
         if (!name_to_item_dict.ContainsKey(item.data.item_name))
         {
-            name_to_item_dict.Add(item.data.item_name,item);
+            name_to_item_dict.Add(item.data.item_name, item);
         }
     }
 

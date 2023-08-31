@@ -26,19 +26,19 @@ public class Inventory_UI : MonoBehaviour
     }
 
     // Update is called once per frame
-    
-   
 
-    //Refresh:¸üÐÂ±³°ü
+
+
+    //Refresh:ï¿½ï¿½ï¿½Â±ï¿½ï¿½ï¿½
     public void Refresh()
     {
-        //Èç¹ûslotsµÄÊýÁ¿ÏàµÈ
-        if(slots.Count == inventory.slots.Count)
+        //ï¿½ï¿½ï¿½slotsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        if (slots.Count == inventory.slots.Count)
         {
-            for(int i = 0; i < slots.Count; i++)
+            for (int i = 0; i < slots.Count; i++)
             {
-                //Èç¹ûÕâ¸ö¸ñ×ÓÓÐ¶«Î÷
-                if(inventory.slots[i].item_name != "")
+                //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½
+                if (inventory.slots[i].item_name != "")
                 {
                     slots[i].SetItem(inventory.slots[i]);
                 }
@@ -52,9 +52,10 @@ public class Inventory_UI : MonoBehaviour
 
     public void Remove()
     {
+
         Item item_to_drop = GameManager.instance.itemManager.GetItemByName(
             inventory.slots[UIManager.dragged_slot.slot_id].item_name);
-        if(item_to_drop != null)
+        if (item_to_drop != null)
         {
             GameManager.instance.player.DropItem(item_to_drop,
                 inventory.slots[UIManager.dragged_slot.slot_id].count);
@@ -84,7 +85,7 @@ public class Inventory_UI : MonoBehaviour
 
         UIManager.dragged_icon.transform.SetParent(canvas.transform);
 
-        UIManager.dragged_icon.raycastTarget = false; //·ÀÖ¹ÉäÏßÕÚµ²
+        UIManager.dragged_icon.raycastTarget = false; //ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½
 
         UIManager.dragged_icon.rectTransform.sizeDelta = new Vector2(80, 80);
 
@@ -110,14 +111,14 @@ public class Inventory_UI : MonoBehaviour
     public void SlotDrop(Slot_UI slot)
     {
         UIManager.dragged_slot.inventory.MoveSlot(UIManager.dragged_slot.slot_id,
-            slot.slot_id,slot.inventory,
+            slot.slot_id, slot.inventory,
             UIManager.dragged_slot.inventory.slots[UIManager.dragged_slot.slot_id].count);
         GameManager.instance.uiManager.RefreshAll();
     }
 
     private void MoveToMousePosition(GameObject to_move)
     {
-        if(canvas != null)
+        if (canvas != null)
         {
             Vector2 position;
 
@@ -131,7 +132,7 @@ public class Inventory_UI : MonoBehaviour
     void SetUpSlots()
     {
         int count = 0;
-        foreach(Slot_UI slot in slots)
+        foreach (Slot_UI slot in slots)
         {
             slot.slot_id = count;
             count++;

@@ -9,9 +9,9 @@ public class Inventory
     public class Slot
     {
         public string item_name;
-        public int count;//¸öÊý
-        public int maxAllowed;//×î´óÊýÁ¿
-        public Sprite icon;//ÎïÆ·µÄÍ¼±ê
+        public int count;//ï¿½ï¿½ï¿½ï¿½
+        public int maxAllowed;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        public Sprite icon;//ï¿½ï¿½Æ·ï¿½ï¿½Í¼ï¿½ï¿½
         public Slot()
         {
             item_name = "";
@@ -23,7 +23,7 @@ public class Inventory
         {
             get
             {
-                if(item_name == "" && count == 0)
+                if (item_name == "" && count == 0)
                 {
                     return true;
                 }
@@ -37,7 +37,7 @@ public class Inventory
             this.icon = item.data.icon;
             count++;
         }
-        public void AddItem(string item_name,Sprite icon,int max_allowed)
+        public void AddItem(string item_name, Sprite icon, int max_allowed)
         {
             this.item_name = item_name;
             this.icon = icon;
@@ -47,7 +47,7 @@ public class Inventory
 
         public bool CanAddItem(string item_name)
         {
-            if(this.item_name == item_name && count < maxAllowed)
+            if (this.item_name == item_name && count < maxAllowed)
             {
                 return true;
             }
@@ -56,10 +56,10 @@ public class Inventory
 
         public void RemoveItem()
         {
-            if (count > 0)  //ÅÐ¶ÏÊÇ·ñÓÐ
+            if (count > 0)  //ï¿½Ð¶ï¿½ï¿½Ç·ï¿½ï¿½ï¿½
             {
                 count--;
-                if(count == 0)  //Èç¹ûÉ¾³ýºóÃ»ÁË¾ÍÉ¾³ý¸ñ×Ó
+                if (count == 0)  //ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ë¾ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                 {
                     this.item_name = "";
                     this.icon = null;
@@ -72,7 +72,7 @@ public class Inventory
 
     public Inventory(int numSlots)
     {
-        for(int i = 0; i < numSlots; i++)
+        for (int i = 0; i < numSlots; i++)
         {
             Slot slot = new Slot();
             slots.Add(slot);
@@ -81,17 +81,17 @@ public class Inventory
 
     public void Add(Item item_to_add)
     {
-        foreach(Slot slot in slots)
+        foreach (Slot slot in slots)
         {
-            if(slot.item_name == item_to_add.data.item_name && slot.CanAddItem(item_to_add.data.item_name))
+            if (slot.item_name == item_to_add.data.item_name && slot.CanAddItem(item_to_add.data.item_name))
             {
                 slot.AddItem(item_to_add);
                 return;
             }
         }
-        foreach(Slot slot in slots)
+        foreach (Slot slot in slots)
         {
-            if(slot.item_name == "")
+            if (slot.item_name == "")
             {
                 slot.AddItem(item_to_add);
                 break;
@@ -104,25 +104,25 @@ public class Inventory
         slots[index].RemoveItem();
     }
 
-    public void Remove(int index,int num_to_remove)
+    public void Remove(int index, int num_to_remove)
     {
         if (slots[index].count >= num_to_remove)
         {
-            for(int i = 0; i < num_to_remove; i++)
+            for (int i = 0; i < num_to_remove; i++)
             {
                 Remove(index);
             }
         }
     }
 
-    public void MoveSlot(int from_index,int to_index,Inventory to_inventory,int num_to_move)
+    public void MoveSlot(int from_index, int to_index, Inventory to_inventory, int num_to_move)
     {
         Slot from_slot = slots[from_index];
         Slot to_slot = to_inventory.slots[to_index];
 
-        if(to_slot.IsEmpty || to_slot.CanAddItem(from_slot.item_name))
+        if (to_slot.IsEmpty || to_slot.CanAddItem(from_slot.item_name))
         {
-            for(int i = 0; i < num_to_move; i++)
+            for (int i = 0; i < num_to_move; i++)
             {
                 to_slot.AddItem(from_slot.item_name, from_slot.icon, from_slot.maxAllowed);
                 from_slot.RemoveItem();

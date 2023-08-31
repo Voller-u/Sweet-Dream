@@ -32,13 +32,13 @@ public class UIManager : MonoBehaviour
         {
             if (inventory_panel.activeSelf)
             {
-                //Èç¹û´ò¿ªÁË¾Í¹Ø±Õ
+                //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¾Í¹Ø±ï¿½
                 inventory_panel.SetActive(false);
 
             }
             else
             {
-                //Èç¹ûÃ»´ò¿ª¾Í´ò¿ª
+                //ï¿½ï¿½ï¿½Ã»ï¿½ò¿ª¾Í´ï¿½
                 RefreshInventoryUI("Backpack");
                 inventory_panel.SetActive(true);
             }
@@ -55,7 +55,7 @@ public class UIManager : MonoBehaviour
 
     public void RefreshAll()
     {
-        foreach(KeyValuePair<string,Inventory_UI> keyValuePair in inventoryui_by_name)
+        foreach (KeyValuePair<string, Inventory_UI> keyValuePair in inventoryui_by_name)
         {
             keyValuePair.Value.Refresh();
         }

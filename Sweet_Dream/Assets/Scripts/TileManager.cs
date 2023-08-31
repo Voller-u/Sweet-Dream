@@ -11,16 +11,16 @@ public class TileManager : MonoBehaviour
     [SerializeField] private Tile interacted_tile;
     void Start()
     {
-        //±éÀúÍßÆ¬µØÍ¼
-        foreach(var position in interactable_map.cellBounds.allPositionsWithin)
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¬ï¿½ï¿½Í¼
+        foreach (var position in interactable_map.cellBounds.allPositionsWithin)
         {
             TileBase tile = interactable_map.GetTile(position);
 
-            //THENAME:ÎÒ»¹Ã»ÏëºÃÒª²»ÒªÓÃÕâÒ»¿é
+            //THENAME:ï¿½Ò»ï¿½Ã»ï¿½ï¿½ï¿½Òªï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
 
-            if(tile != null && tile.name == "THENAME")
+            if (tile != null && tile.name == "THENAME")
             {
-                //½«Ö¸¶¨Î»ÖÃµÄÍßÆ¬ÉèÖÃ³ÉÖ¸¶¨µÄÍßÆ¬
+                //ï¿½ï¿½Ö¸ï¿½ï¿½Î»ï¿½Ãµï¿½ï¿½ï¿½Æ¬ï¿½ï¿½ï¿½Ã³ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¬
                 interactable_map.SetTile(position, hidden_interactable_tile);
             }
 
@@ -31,7 +31,7 @@ public class TileManager : MonoBehaviour
     {
         TileBase tile = interactable_map.GetTile(position);
 
-        if(tile != null)
+        if (tile != null)
         {
             if (tile.name == "Interactable")
             {

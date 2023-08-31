@@ -9,15 +9,15 @@ public class Slot_UI : MonoBehaviour
 
     public Inventory inventory;
 
-    public Image itemicon;//ÎïÆ·µÄÍ¼±ê
-    public TextMeshProUGUI quantity_text;//ÎïÆ·µÄÊýÁ¿
-    public GameObject close_button;//¶ªÆú°´Å¥
+    public Image itemicon;//ï¿½ï¿½Æ·ï¿½ï¿½Í¼ï¿½ï¿½
+    public TextMeshProUGUI quantity_text;//ï¿½ï¿½Æ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    public GameObject close_button;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¥
 
-    [SerializeField] private GameObject highlight;//Ñ¡ÖÐÎïÌåµÄ¸ß¹â
-    //ÉèÖÃÎïÆ·
+    [SerializeField] private GameObject highlight;//Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ß¹ï¿½
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ·
     public void SetItem(Inventory.Slot slot)
     {
-        if(slot != null)
+        if (slot != null)
         {
             itemicon.sprite = slot.icon;
             itemicon.color = new Color(1, 1, 1, 1);
@@ -25,11 +25,11 @@ public class Slot_UI : MonoBehaviour
             close_button.SetActive(true);
         }
     }
-    //¸ñ×ÓÎª¿ÕÊ±
+    //ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ê±
     public void SetEmpty()
     {
         itemicon.sprite = null;
-        itemicon.color = new Color(1, 1, 1, 0);//ÉèÖÃÍ¸Ã÷
+        itemicon.color = new Color(1, 1, 1, 0);//ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ï¿½
         quantity_text.text = "";
         close_button.SetActive(false);
     }

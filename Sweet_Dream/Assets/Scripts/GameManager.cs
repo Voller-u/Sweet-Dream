@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public Player player;
     private void Awake()
     {
-        if(instance != null && instance != this)
+        if (instance != null && instance != this)
         {
             Destroy(this.gameObject);
         }
@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
             instance = this;
         }
 
-        //ÈÃGameManagerÒ»Ö±´æÔÚ£¬²»»áÒòÎª³¡¾°ÇĞ»»¶øÏûÊ§
+        //ï¿½ï¿½GameManagerÒ»Ö±ï¿½ï¿½ï¿½Ú£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½Ğ»ï¿½ï¿½ï¿½ï¿½ï¿½Ê§
         DontDestroyOnLoad(this.gameObject);
 
         itemManager = GetComponent<ItemManager>();

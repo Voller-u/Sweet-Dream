@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float speed; //Ω«…´“∆∂ØµƒÀŸ∂»
-    
+    public float speed; //ÔøΩÔøΩ…´ÔøΩ∆∂ÔøΩÔøΩÔøΩÔøΩŸ∂ÔøΩ
+
     protected Animator animator;
-    
+
     protected Vector3 direction;
 
     public InventoryManager inventory;
@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
 
             if (GameManager.instance.tileManager.IsInteractable(position))
             {
-                //TODO œÏ”¶
+                //TODO ÔøΩÔøΩ”¶
                 GameManager.instance.tileManager.SetInteracted(position);
             }
         }
@@ -56,9 +56,9 @@ public class Player : MonoBehaviour
 
     protected void animation_change(Vector3 direction)
     {
-        if(animator != null)
+        if (animator != null)
         {
-            if(direction.magnitude > 0)
+            if (direction.magnitude > 0)
             {
                 animator.SetBool("isMoving", true);
                 animator.SetFloat("horizontal", direction.x);
@@ -76,9 +76,9 @@ public class Player : MonoBehaviour
 
         Vector2 spawn_offset = Random.insideUnitCircle * 2f;
 
-        //–ﬁ’˝Œª÷√£¨±‹√‚»”≤ª≥ˆ»•
-        if (spawn_offset.x < 0){spawn_offset.x -= 0.5f;}
-        else {spawn_offset.x += 0.5f;}
+        //ÔøΩÔøΩÔøΩÔøΩŒªÔøΩ√£ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ”≤ÔøΩÔøΩÔøΩ»•
+        if (spawn_offset.x < 0) { spawn_offset.x -= 0.5f; }
+        else { spawn_offset.x += 0.5f; }
         if (spawn_offset.y < 0) { spawn_offset.y -= 0.5f; }
         else { spawn_offset.y += 0.5f; }
 
@@ -87,9 +87,9 @@ public class Player : MonoBehaviour
 
         item_to_drop.rb.AddForce(spawn_offset * 2f, ForceMode2D.Impulse);
     }
-    public void DropItem(Item item,int num_to_drop)
+    public void DropItem(Item item, int num_to_drop)
     {
-        for(int i = 0; i < num_to_drop; i++)
+        for (int i = 0; i < num_to_drop; i++)
         {
             DropItem(item);
         }
