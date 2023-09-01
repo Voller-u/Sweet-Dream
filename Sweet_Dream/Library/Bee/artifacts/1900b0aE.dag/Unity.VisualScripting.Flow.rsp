@@ -126,6 +126,7 @@
 -define:MODULE_PARTICLE_SYSTEM_EXISTS
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll"
 -r:"D:/Unity/2021.3.10f1c1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/Unity/2021.3.10f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/Unity/2021.3.10f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
