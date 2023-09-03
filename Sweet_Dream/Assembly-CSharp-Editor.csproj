@@ -71,8 +71,8 @@
     <Compile Include="Assets\ProCamera2D\Code\Core\Editor\CleanupMissingScripts.cs" />
     <Compile Include="Assets\ProCamera2D\Code\Triggers\Editor\ProCamera2DTriggerInfluenceEditor.cs" />
     <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DParallaxEditor.cs" />
-    <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DPixelPerfectEditor.cs" />
     <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DShakeEditor.cs" />
+    <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DPixelPerfectEditor.cs" />
     <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DRepeaterEditor.cs" />
     <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DPanAndZoomEditor.cs" />
     <Compile Include="Assets\ProCamera2D\Code\Triggers\Editor\ProCamera2DTriggerRailsEditor.cs" />
@@ -373,6 +373,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>Assets\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
@@ -919,9 +922,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{FBA1B45A-E094-0D2B-909B-B1BB59B6FB82}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{913F327E-4914-030E-105A-2F265AE7446B}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{9E58023B-F731-34A6-125C-6483BE3D8712}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{AE02D07A-DCB5-08BA-2CEB-F113E05940CB}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{0B9DFA10-3490-7DFC-7957-225D8AF36C8F}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{FCA227C5-A6AB-6BEB-EF92-ABA8F03CDFAF}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
