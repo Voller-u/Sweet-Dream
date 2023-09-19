@@ -16,16 +16,15 @@ A fan game about School-live!
 
 <details>
     <summary>种植部分</summary>
-    
-    - [ ] ...
+
+   - [ ] ...
 </details>
 
 <details>
     <summary>战斗部分</summary>
-    
-    - [ ] ...
+
+   - [ ] ...
 </details>
 
 
- 
 
