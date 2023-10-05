@@ -26,5 +26,12 @@ A fan game about School-live!
    - [ ] ...
 </details>
 
+<details>
+    <summary>上课部分</summary>
 
+- [ ] 高等数学
+- [ ] 大学物理
+- [ ] 线性代数
+- [ ] ...
 
+</details>

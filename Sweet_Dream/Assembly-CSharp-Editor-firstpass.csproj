@@ -75,6 +75,18 @@
     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3Window.cs" />
     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3InspectorInfoEditor.cs" />
     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3AutoSaveEditor.cs" />
+    <Compile Include="Assets\Plugins\TEXDraw\Editor\TEXSupplementEditor.cs" />
+    <Compile Include="Assets\Plugins\TEXDraw\Editor\TEXFileImporter.cs" />
+    <Compile Include="Assets\Plugins\TEXDraw\Editor\TEXPreferenceEditor.cs" />
+    <Compile Include="Assets\Plugins\TEXDraw\Editor\TEXDraw3DEditor.cs" />
+    <Compile Include="Assets\Plugins\TEXDraw\Editor\MiniThumbDrawer.cs" />
+    <Compile Include="Assets\Plugins\TEXDraw\Editor\TEXBoxHighlighting.cs" />
+    <Compile Include="Assets\Plugins\TEXDraw\Editor\TEXDrawEditor.cs" />
+    <Compile Include="Assets\Plugins\TEXDraw\Editor\TexConfigurationEditor.cs" />
+    <Compile Include="Assets\Plugins\TEXDraw\Editor\TEXSharedEditor.cs" />
+    <Compile Include="Assets\Plugins\TEXDraw\Editor\EditorObjectPool.cs" />
+    <Compile Include="Assets\Plugins\TEXDraw\Editor\TEXEditorMenus.cs" />
+    <Compile Include="Assets\Plugins\TEXDraw\Editor\EditorTEXUIQuickEditors.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ValueTypeTemplate.txt" />

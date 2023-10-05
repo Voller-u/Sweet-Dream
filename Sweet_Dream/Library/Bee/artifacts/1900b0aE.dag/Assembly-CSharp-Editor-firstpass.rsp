@@ -352,6 +352,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/AstarPathfindingProject.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/AstarPathfindingProjectEditor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PackageToolsEditor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Paroxe.PDFRenderer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Paroxe.PDFRenderer.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Runtime.ref.dll"
@@ -417,6 +419,18 @@
 "Assets/Plugins/Easy Save 3/Editor/SettingsWindow.cs"
 "Assets/Plugins/Easy Save 3/Editor/ToolsWindow.cs"
 "Assets/Plugins/Easy Save 3/Editor/TypesWindow.cs"
+"Assets/Plugins/TEXDraw/Editor/EditorObjectPool.cs"
+"Assets/Plugins/TEXDraw/Editor/EditorTEXUIQuickEditors.cs"
+"Assets/Plugins/TEXDraw/Editor/MiniThumbDrawer.cs"
+"Assets/Plugins/TEXDraw/Editor/TEXBoxHighlighting.cs"
+"Assets/Plugins/TEXDraw/Editor/TexConfigurationEditor.cs"
+"Assets/Plugins/TEXDraw/Editor/TEXDraw3DEditor.cs"
+"Assets/Plugins/TEXDraw/Editor/TEXDrawEditor.cs"
+"Assets/Plugins/TEXDraw/Editor/TEXEditorMenus.cs"
+"Assets/Plugins/TEXDraw/Editor/TEXFileImporter.cs"
+"Assets/Plugins/TEXDraw/Editor/TEXPreferenceEditor.cs"
+"Assets/Plugins/TEXDraw/Editor/TEXSharedEditor.cs"
+"Assets/Plugins/TEXDraw/Editor/TEXSupplementEditor.cs"
 -langversion:9.0
 
 /deterministic
