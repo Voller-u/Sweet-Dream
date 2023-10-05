@@ -37,7 +37,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\Player\PlayerInput.cs" />
+     <Compile Include="Assets\LitJson\JsonData.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Utils\MinMaxSliderAttribute.cs" />
+     <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\Player\PlayerInputBot.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -81,6 +83,7 @@
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\GameOver.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Enemy\EnemyWander.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\ObjectMove.cs" />
+     <Compile Include="Assets\LitJson\JsonMockWrapper.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\KDTree.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Utils\PrefsData.cs" />
@@ -89,6 +92,7 @@
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DShakeWithValues.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPositionOverrider.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Player\PlayerHealth.cs" />
+     <Compile Include="Assets\LitJson\JsonMapper.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DLimitDistance.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -109,7 +113,10 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\ProCamera2DTriggerBoundaries.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DGeometryBoundaries.cs" />
+     <Compile Include="Assets\LitJson\Lexer.cs" />
+     <Compile Include="Assets\LitJson\IJsonWrapper.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\LitJson\JsonWriter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DSpeedBasedZoom.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
@@ -118,9 +125,11 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\ToggleCinematics.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Utils\Utils.cs" />
+     <Compile Include="Assets\Scripts\Base\AudioManager.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DZoomToFitTargets.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\EnumMovementAxis.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\EnumUpdateType.cs" />
+     <Compile Include="Assets\LitJson\Netstandard15Polyfill.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DCinematicsToggle.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
@@ -137,6 +146,7 @@
      <Compile Include="Assets\ProCamera2D\Code\Helpers\TransitionFX\BasicBlit.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\ProCamera2DTriggerInfluence.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\LitJson\JsonReader.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DShakeStop.cs" />
      <Compile Include="Assets\Scripts\UI\Inventory_UI.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Pool\PoolMember.cs" />
@@ -145,6 +155,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DShakeConstantWithPreset.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\DollyZoomExample.cs" />
+     <Compile Include="Assets\LitJson\JsonException.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Helpers\Pixel Perfect\ProCamera2DPixelPerfectSprite.cs" />
@@ -162,29 +173,20 @@
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Player\PlayerInput.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DShake.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DParallax.cs" />
+     <Compile Include="Assets\LitJson\ParserToken.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DPixelPerfect.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Player\PlayerFire.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\Scripts\Base\Global.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\DoorKey.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\ToggleTransitionsFX.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPostMover.cs" />
-     <Compile Include="Assets\LitJson\JsonMapper.cs" />
-     <Compile Include="Assets\LitJson\JsonMockWrapper.cs" />
-     <Compile Include="Assets\LitJson\JsonData.cs" />
-     <Compile Include="Assets\LitJson\IJsonWrapper.cs" />
-     <Compile Include="Assets\LitJson\ParserToken.cs" />
-     <Compile Include="Assets\LitJson\JsonException.cs" />
-     <Compile Include="Assets\LitJson\JsonReader.cs" />
-     <Compile Include="Assets\LitJson\Netstandard15Polyfill.cs" />
-     <Compile Include="Assets\LitJson\Lexer.cs" />
-     <Compile Include="Assets\LitJson\JsonWriter.cs" />
-     <Compile Include="Assets\Scripts\SoundManager.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\___www.unityassetcollection.com___.txt" />
@@ -908,14 +910,8 @@
     <Reference Include="Unity.2D.IK.Editor">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Path.Editor">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -923,14 +919,14 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
@@ -938,11 +934,14 @@
     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -974,6 +973,9 @@
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
@@ -1002,14 +1004,6 @@
       <Project>{7ad002ae-b5dc-ba08-2ceb-f113e05940cb}</Project>
       <Name>PackageToolsEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{10fa9d0b-9034-fc7d-7957-225d8af36c8f}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{c527a2fc-aba6-eb6b-ef92-aba8f03cdfaf}</Project>
-      <Name>AstarPathfindingProjectEditor</Name>
-    </ProjectReference>
     <ProjectReference Include="Paroxe.PDFRenderer.Editor.csproj">
       <Project>{45534d5d-507b-f588-91d6-d818d38485d7}</Project>
       <Name>Paroxe.PDFRenderer.Editor</Name>
@@ -1017,6 +1011,14 @@
     <ProjectReference Include="Paroxe.PDFRenderer.csproj">
       <Project>{e93485d8-afb3-3a07-0a88-f7294a0f14dd}</Project>
       <Name>Paroxe.PDFRenderer</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{10fa9d0b-9034-fc7d-7957-225d8af36c8f}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{c527a2fc-aba6-eb6b-ef92-aba8f03cdfaf}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -483,6 +483,8 @@
 "Assets/ProCamera2D/Examples/TopDownShooter/Scripts/RotateTowardsMouse.cs"
 "Assets/ProCamera2D/Examples/TopDownShooter/Scripts/SwitchCameraProjection.cs"
 "Assets/ProCamera2D/ProCamera2D.cs"
+"Assets/Scripts/Base/AudioManager.cs"
+"Assets/Scripts/Base/Global.cs"
 "Assets/Scripts/CameraFollwed.cs"
 "Assets/Scripts/Collectable.cs"
 "Assets/Scripts/GameManager.cs"
