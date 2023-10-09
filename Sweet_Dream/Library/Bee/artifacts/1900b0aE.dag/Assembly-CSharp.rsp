@@ -486,6 +486,7 @@
 "Assets/Scripts/Base/AudioManager.cs"
 "Assets/Scripts/Base/Global.cs"
 "Assets/Scripts/CameraFollwed.cs"
+"Assets/Scripts/Classroom/Content.cs"
 "Assets/Scripts/Collectable.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Inventory.cs"

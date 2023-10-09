@@ -1,0 +1,8 @@
+{
+    "question":[
+        "$$函数y=\\sqrt{1-2x}+\\sqrt{e-e^{\\left(\\frac{3x-1}{2}\\right)^2}}的定义域为?$$"                        
+    ],
+    "answer":[
+        "$$\\boldsymbol{解}\\quad 由已知条件知\\\\\\left\\{ \\begin{aligned}1-2x\\geq0,\\\\\\left(\\frac{3x-1}{2}\\right)^2\\leq 1\\end{aligned}\\right .$$"
+    ]
+}

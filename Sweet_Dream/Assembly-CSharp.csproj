@@ -142,6 +142,7 @@
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DShakeWithPreset.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPreMover.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DShakeConstantStop.cs" />
+     <Compile Include="Assets\Scripts\Classroom\Content.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DTransitionsFX.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Helpers\TransitionFX\BasicBlit.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\ProCamera2DTriggerInfluence.cs" />
