@@ -44,9 +44,7 @@
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\Player\PlayerInputBot.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\ISizeDeltaChanger.cs" />
-     <Compile Include="Assets\Scripts\Scriptable Objects\ItemData.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DCinematics.cs" />
-     <Compile Include="Assets\Scripts\Collectable.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Enemy\EnemyFSM.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\MoveInColliderBoundaries.cs" />
      <Compile Include="Assets\Scripts\TileManager.cs" />
@@ -56,18 +54,14 @@
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Pool\Pool.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\ObjectRotate.cs" />
-     <Compile Include="Assets\Scripts\UI\Slot_UI.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\ISizeOverrider.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Bullet.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DAdjustCameraTargetInfluence.cs" />
-     <Compile Include="Assets\Scripts\UI\Toolbar_UI.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\RoomsEventsExample.cs" />
-     <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Door.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DNumericBoundaries.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-     <Compile Include="Assets\Scripts\InventoryManager.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Enemy\EnemySight.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
@@ -100,7 +94,6 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\ProCamera2DTriggerZoom.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Enemy\PatrolWaypoint.cs" />
-     <Compile Include="Assets\Scripts\ItemManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Helpers\Parallax\ProCamera2DParallaxObject.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DApplyInfluencesTimed.cs" />
@@ -119,7 +112,6 @@
      <Compile Include="Assets\LitJson\JsonWriter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DSpeedBasedZoom.cs" />
-     <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\ShakeExample.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\BaseTrigger.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
@@ -149,7 +141,6 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\LitJson\JsonReader.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DShakeStop.cs" />
-     <Compile Include="Assets\Scripts\UI\Inventory_UI.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Pool\PoolMember.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DPanAndZoom.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\ShakePreset.cs" />
@@ -163,7 +154,6 @@
      <Compile Include="Assets\ProCamera2D\Code\Core\BasePC2D.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPositionDeltaChanger.cs" />
-     <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DAddCameraTarget.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DApplyInfluence.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DRails.cs" />

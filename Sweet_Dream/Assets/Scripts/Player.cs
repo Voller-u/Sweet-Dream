@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float speed; //��ɫ�ƶ����ٶ�
+    public float speed; 
 
     protected Animator animator;
 
     protected Vector3 direction;
 
-    public InventoryManager inventory;
 
     // Start is called before the first frame update
     protected void Awake()
     {
-        inventory = GetComponent<InventoryManager>();
     }
     protected void Start()
     {
@@ -33,7 +31,6 @@ public class Player : MonoBehaviour
 
             if (GameManager.instance.tileManager.IsInteractable(position))
             {
-                //TODO ��Ӧ
                 GameManager.instance.tileManager.SetInteracted(position);
             }
         }
@@ -68,30 +65,6 @@ public class Player : MonoBehaviour
             {
                 animator.SetBool("isMoving", false);
             }
-        }
-    }
-    public void DropItem(Item item)
-    {
-        Vector2 spwan_location = transform.position;
-
-        Vector2 spawn_offset = Random.insideUnitCircle * 2f;
-
-        //����λ�ã������Ӳ���ȥ
-        if (spawn_offset.x < 0) { spawn_offset.x -= 0.5f; }
-        else { spawn_offset.x += 0.5f; }
-        if (spawn_offset.y < 0) { spawn_offset.y -= 0.5f; }
-        else { spawn_offset.y += 0.5f; }
-
-        Item item_to_drop =
-            Instantiate(item, spwan_location + spawn_offset, Quaternion.identity);
-
-        item_to_drop.rb.AddForce(spawn_offset * 2f, ForceMode2D.Impulse);
-    }
-    public void DropItem(Item item, int num_to_drop)
-    {
-        for (int i = 0; i < num_to_drop; i++)
-        {
-            DropItem(item);
         }
     }
 }
