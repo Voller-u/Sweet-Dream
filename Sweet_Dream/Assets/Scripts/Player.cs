@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.Intrinsics;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -7,64 +8,49 @@ public class Player : MonoBehaviour
     public float speed; 
 
     protected Animator animator;
-
-    protected Vector3 direction;
+    protected Rigidbody2D rb;
+    protected Collider2D coll;
+    protected Vector2 direction;
 
 
     // Start is called before the first frame update
     protected void Awake()
     {
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        coll = GetComponent<Collider2D>();
     }
     protected void Start()
     {
-        animator = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
     protected void Update()
     {
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Vector3Int position = new Vector3Int((int)transform.position.x,
-                (int)transform.position.y, 0);
-
-            if (GameManager.instance.tileManager.IsInteractable(position))
-            {
-                GameManager.instance.tileManager.SetInteracted(position);
-            }
-        }
-
         Move();
+        SwitchAnimation();
     }
 
-    protected void FixedUpdate()
-    {
-        transform.position += direction * speed * Time.deltaTime;
-    }
+
 
     public void Move()
     {
-        float v_x = Input.GetAxisRaw("Horizontal");
-        float v_y = Input.GetAxisRaw("Vertical");
-        direction = new Vector3(v_x, v_y);
-        animation_change(direction);
+        direction.x = Input.GetAxisRaw("Horizontal");
+        direction.y = Input.GetAxisRaw("Vertical");
+        transform.position += new Vector3(speed * direction.x * Time.deltaTime,speed * direction.y *Time.deltaTime,0f);
     }
 
-    protected void animation_change(Vector3 direction)
+    protected void SwitchAnimation()
     {
         if (animator != null)
         {
-            if (direction.magnitude > 0)
-            {
-                animator.SetBool("isMoving", true);
-                animator.SetFloat("horizontal", direction.x);
-                animator.SetFloat("vertical", direction.y);
+            //使得停止移动时，以上一次移动方向作为站立方向
+            if(direction != Vector2.zero){
+                animator.SetFloat("horizontal",direction.x);
+                animator.SetFloat("vertical",direction.y);
             }
-            else
-            {
-                animator.SetBool("isMoving", false);
-            }
+            animator.SetFloat("speed",direction.magnitude);
         }
     }
 }
