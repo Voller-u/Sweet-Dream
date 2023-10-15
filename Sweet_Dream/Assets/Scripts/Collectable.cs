@@ -7,7 +7,7 @@ public class Collectable : MonoBehaviour
     public Item property;
     void Start()
     {
-        Debug.Log(property.itemNum);
+        
     }
 
     // Update is called once per frame

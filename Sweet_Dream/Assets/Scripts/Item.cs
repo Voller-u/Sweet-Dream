@@ -20,4 +20,11 @@ public class Item
         this.itemImage = item.itemImage;
         this.itemNum = item.itemNum;
     }
+
+    public Item(){
+        itemName = "";
+        itemImage  = null;
+        itemDescription = "";
+        itemNum = 0;
+    }
 }

@@ -71,6 +71,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\CameraTarget.cs" />
+     <Compile Include="Assets\Scripts\UI\Inventory.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DMoveCameraInstantlyToPosition.cs" />
      <Compile Include="Assets\Scripts\CameraFollwed.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\GameOver.cs" />
@@ -78,6 +79,7 @@
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\ObjectMove.cs" />
      <Compile Include="Assets\LitJson\JsonMockWrapper.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\KDTree.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Utils\PrefsData.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DRepeater.cs" />
@@ -104,6 +106,7 @@
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DContentFitter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\ProCamera2DTriggerBoundaries.cs" />
+     <Compile Include="Assets\Scripts\UI\InventoryDrag.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DGeometryBoundaries.cs" />
      <Compile Include="Assets\LitJson\Lexer.cs" />
      <Compile Include="Assets\LitJson\IJsonWrapper.cs" />
@@ -152,6 +155,7 @@
      <Compile Include="Assets\ProCamera2D\Code\Helpers\Pixel Perfect\ProCamera2DPixelPerfectSprite.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\BasePC2D.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\Scripts\Collectable.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPositionDeltaChanger.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DAddCameraTarget.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DApplyInfluence.cs" />
@@ -161,6 +165,7 @@
      <Compile Include="Assets\Scripts\Yuki.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Helpers\Letterbox\ProCamera2DLetterbox.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Player\PlayerInput.cs" />
+     <Compile Include="Assets\Scripts\UI\Slot.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DShake.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DParallax.cs" />
      <Compile Include="Assets\LitJson\ParserToken.cs" />
@@ -174,12 +179,10 @@
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\DoorKey.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\ToggleTransitionsFX.cs" />
+     <Compile Include="Assets\Scripts\Base\TimeManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPostMover.cs" />
-     <Compile Include="Assets\Scripts\UI\Inventory.cs" />
-     <Compile Include="Assets\Scripts\Item.cs" />
-     <Compile Include="Assets\Scripts\Collectable.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\___www.unityassetcollection.com___.txt" />
