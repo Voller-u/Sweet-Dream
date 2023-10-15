@@ -275,10 +275,28 @@
      <Compile Include="Assets\Plugins\TEXDraw\Core\Atom\SoftBreakAtom.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3ObjectType.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3ArrayType.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeUnityExtended.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeAudio.cs" />
      <None Include="Assets\Plugins\TEXDraw\Script\TEXDrawShaderDefault.shader" />
+     <None Include="Assets\Plugins\Demigiant\readme_DOTweenPro.txt" />
      <None Include="Assets\Plugins\TEXDraw\Fonts\User\opens-LICENSE.txt" />
      <None Include="Assets\Plugins\TEXDraw\Readme.txt" />
      <None Include="Assets\Plugins\Easy Save 3\Change Log\Change Log.txt" />
+     <None Include="Assets\Plugins\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\Plugins\TEXDraw\Version.txt" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2021.3.10f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -546,6 +564,15 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>D:\Unity\2021.3.10f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

@@ -122,6 +122,9 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll"
+-r:"Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll"
+-r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
+-r:"Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll"
 -r:"D:/Unity/2021.3.10f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/Unity/2021.3.10f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"D:/Unity/2021.3.10f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -493,6 +496,7 @@
 "Assets/Scripts/Item.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/TileManager.cs"
+"Assets/Scripts/UI/Dialog/Test.cs"
 "Assets/Scripts/UI/Inventory.cs"
 "Assets/Scripts/UI/InventoryDrag.cs"
 "Assets/Scripts/UI/Slot.cs"
