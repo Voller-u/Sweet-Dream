@@ -359,11 +359,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Paroxe/PDFRenderer/Internal/Editor/PDFAssetEditor.cs"
-"Assets/Paroxe/PDFRenderer/Internal/Editor/PDFImporterContextMenu.cs"
-"Assets/Paroxe/PDFRenderer/Internal/Editor/PDFViewerEditor.cs"
-"Assets/Paroxe/PDFRenderer/Internal/Editor/PRHelper.cs"
-"Assets/Paroxe/PDFRenderer/Internal/Editor/WebGLPostBuild.cs"
+"Assets/Plugins/Paroxe/PDFRenderer/Internal/Editor/PDFAssetEditor.cs"
+"Assets/Plugins/Paroxe/PDFRenderer/Internal/Editor/PDFImporterContextMenu.cs"
+"Assets/Plugins/Paroxe/PDFRenderer/Internal/Editor/PDFViewerEditor.cs"
+"Assets/Plugins/Paroxe/PDFRenderer/Internal/Editor/PRHelper.cs"
+"Assets/Plugins/Paroxe/PDFRenderer/Internal/Editor/WebGLPostBuild.cs"
 -langversion:9.0
 
 /deterministic

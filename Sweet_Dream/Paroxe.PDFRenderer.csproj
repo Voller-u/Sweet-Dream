@@ -36,55 +36,55 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFViewerPage.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\Action\PDFDest.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\Text\PDFSearchHandle.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFBookmarksViewer.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFBookmarkListItem.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFViewerSearchButton.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\PDFWebRequest.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\WebGL\PDFJS_PromiseCoroutine.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\Rendering\PDFRenderer.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFViewerDefaultActionHandler.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\WebGL\PDFJS_Library.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFThumbnailsViewer.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\Action\PDFLink.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\Text\PDFSearchResult.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\Action\IPDFDeviceActionHandler.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Examples\Scripts\WebGL_API_Usage.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFViewerLeftPanelScrollbar.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\IPDFDevice.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\WebGL\PDFJS_WebGLCanvas.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\Text\PDFProgressiveSearch.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Examples\Scripts\PDFViewer_API_Usage.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFViewerInternal.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\Action\PDFAction.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Examples\Scripts\API_Usage.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Examples\Scripts\PDFDocumentRenderToTextureExample.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\Action\PDFActionHandlerHelper.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Examples\Scripts\PDFBytesSupplierExample.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\PDFBookmark.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\PDFBitmap.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\Rendering\IPDFColoredRectListProvider.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFViewerLeftPanel.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\WebGL\IPDFJS_Promise.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\Text\PDFTextPage.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\PDFInternalUtils.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Examples\Scripts\ShowPersistentData.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFSearchPanel.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFThumbnailItem.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\PDFViewer.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFPageRange.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\NativeMethods.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\PDFAsset.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\PDFLibrary.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\WebGL\PDFJS_Promise.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\PDFDocument.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFPageTextureHolder.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\PDFPage.cs" />
-     <Compile Include="Assets\Paroxe\PDFRenderer\API\Rendering\PDFColoredRect.cs" />
-     <None Include="Assets\Paroxe\PDFRenderer\Third-Party Notice.txt" />
-     <None Include="Assets\Paroxe\PDFRenderer\Paroxe.PDFRenderer.asmdef" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFViewerPage.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Action\PDFDest.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Text\PDFSearchHandle.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFBookmarksViewer.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFBookmarkListItem.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFViewerSearchButton.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\PDFWebRequest.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\WebGL\PDFJS_PromiseCoroutine.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Rendering\PDFRenderer.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFViewerDefaultActionHandler.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\WebGL\PDFJS_Library.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFThumbnailsViewer.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Action\PDFLink.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Text\PDFSearchResult.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Action\IPDFDeviceActionHandler.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Examples\Scripts\WebGL_API_Usage.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFViewerLeftPanelScrollbar.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\IPDFDevice.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\WebGL\PDFJS_WebGLCanvas.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Text\PDFProgressiveSearch.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Examples\Scripts\PDFViewer_API_Usage.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFViewerInternal.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Action\PDFAction.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Examples\Scripts\API_Usage.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Examples\Scripts\PDFDocumentRenderToTextureExample.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Action\PDFActionHandlerHelper.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Examples\Scripts\PDFBytesSupplierExample.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\PDFBookmark.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\PDFBitmap.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Rendering\IPDFColoredRectListProvider.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFViewerLeftPanel.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\WebGL\IPDFJS_Promise.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Text\PDFTextPage.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\PDFInternalUtils.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Examples\Scripts\ShowPersistentData.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFSearchPanel.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFThumbnailItem.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\PDFViewer.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFPageRange.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\NativeMethods.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\PDFAsset.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\PDFLibrary.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\WebGL\PDFJS_Promise.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\PDFDocument.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\Viewer\PDFPageTextureHolder.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\PDFPage.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Rendering\PDFColoredRect.cs" />
+     <None Include="Assets\Plugins\Paroxe\PDFRenderer\Third-Party Notice.txt" />
+     <None Include="Assets\Plugins\Paroxe\PDFRenderer\Paroxe.PDFRenderer.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2021.3.10f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -340,23 +340,8 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>D:\Unity\2021.3.10f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    <Reference Include="DemiEditor">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
@@ -367,20 +352,53 @@
     <Reference Include="Unity.Burst.Cecil.Pdb">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
-    </Reference>
     <Reference Include="log4netPlastic">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenProEditor">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
