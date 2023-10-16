@@ -15,7 +15,7 @@ E:/Sweet_Dream/Sweet_Dream
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-6914
+13244
 Successfully changed project path to: E:/Sweet_Dream/Sweet_Dream
 E:/Sweet_Dream/Sweet_Dream
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -48,7 +48,7 @@ E:/Sweet_Dream/Sweet_Dream
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 171.10 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 180.26 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1c1 (fad0948fb939)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.10f1c1/Editor/Data/Resources/UnitySubsystems
@@ -64,93 +64,93 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.10f1c1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.10f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.10f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003305 seconds.
+Registered in 0.004735 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 153.61 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 164.60 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.872 seconds
+- Completed reload, in  0.876 seconds
 Domain Reload Profiling:
-	ReloadAssembly (873ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (662ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (657ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (137ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (422ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (406ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (75ms)
+				InitializePlatformSupportModulesInManaged (68ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (154ms)
+				RefreshPlugins (165ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (124ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017022 seconds.
+Registered in 0.016223 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 154.32 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 162.66 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.679 seconds
+- Completed reload, in  1.791 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1680ms)
-		BeginReloadAssembly (250ms)
+	ReloadAssembly (1792ms)
+		BeginReloadAssembly (249ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (124ms)
-		EndReloadAssembly (1279ms)
-			LoadAssemblies (113ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (1392ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (312ms)
+			SetupTypeCache (387ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (683ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (737ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (154ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (326ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (163ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.19 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4765 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (57.7 KB). Loaded Objects now: 5220.
-Memory consumption went from 181.1 MB to 181.1 MB.
-Total: 4.038700 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.175600 ms MarkObjects: 3.453900 ms  DeleteObjects: 0.099300 ms)
+Unloading 5164 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (478.7 KB). Loaded Objects now: 5623.
+Memory consumption went from 206.9 MB to 206.5 MB.
+Total: 6.762500 ms (FindLiveObjects: 0.472400 ms CreateObjectMapping: 0.439700 ms MarkObjects: 5.392400 ms  DeleteObjects: 0.456300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,100 +165,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 356321.093734 seconds.
-  path: Assets/Plugins/Audios
-  artifactKey: Guid(934bbadaa0df2204b83686b2d6bfd71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Audios using Guid(934bbadaa0df2204b83686b2d6bfd71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061b713811ab9d8007809a74a4a4e6d9') in 0.075926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 72.321903 seconds.
-  path: Assets/Plasma Magic/RPG3_PlasmaMagic_Buff01.wav
-  artifactKey: Guid(c4d06272dbd41446bbeb108774424260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plasma Magic/RPG3_PlasmaMagic_Buff01.wav using Guid(c4d06272dbd41446bbeb108774424260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4e73a53d2131b3ef48abd62c375d44') in 0.172176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Plasma Magic/RPG3_PlasmaMagic_Buff03v2.wav
-  artifactKey: Guid(d50956c85f37b47bb8a3306dcb076ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plasma Magic/RPG3_PlasmaMagic_Buff03v2.wav using Guid(d50956c85f37b47bb8a3306dcb076ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3742e97d80eecb62ce3346e0ee6d4cc0') in 0.038273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Plasma Magic/RPG3_PlasmaMagic_Debuff01.wav
-  artifactKey: Guid(a5e0a5cded0fd4826a56e9ce6265a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plasma Magic/RPG3_PlasmaMagic_Debuff01.wav using Guid(a5e0a5cded0fd4826a56e9ce6265a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89292081b9438ec3743f2887ad91f1fd') in 0.033197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Plasma Magic/RPG3_PlasmaMagic_Cast02.wav
-  artifactKey: Guid(af91a282d687348509f736e8411c22f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plasma Magic/RPG3_PlasmaMagic_Cast02.wav using Guid(af91a282d687348509f736e8411c22f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9345b7f38e13d4d8bc50ad259715d2e3') in 0.033886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Plasma Magic/RPG3_PlasmaMagic_Cast01.wav
-  artifactKey: Guid(2a54527b5de0e4fb185db9e9227adeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plasma Magic/RPG3_PlasmaMagic_Cast01.wav using Guid(2a54527b5de0e4fb185db9e9227adeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7365c6f0db74c7e3541fca0ed1b2361') in 0.029156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.163618 seconds.
-  path: Assets/Plasma Magic/RPG3_PlasmaMagic_DroneEpic01_Loop.wav
-  artifactKey: Guid(7b292c96491224459b1ae06218ede939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plasma Magic/RPG3_PlasmaMagic_DroneEpic01_Loop.wav using Guid(7b292c96491224459b1ae06218ede939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b268de0f3f5e23971bf18521cc3753d4') in 0.052743 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.033879 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.651 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1653ms)
-		BeginReloadAssembly (198ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1296ms)
-			LoadAssemblies (157ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (353ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (571ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (331ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 9.26 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4731 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (26.3 KB). Loaded Objects now: 5233.
-Memory consumption went from 182.3 MB to 182.3 MB.
-Total: 3.499700 ms (FindLiveObjects: 0.273900 ms CreateObjectMapping: 0.158600 ms MarkObjects: 3.027400 ms  DeleteObjects: 0.038100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 444662.101139 seconds.
+  path: Assets/Scenes/Rooftop.unity
+  artifactKey: Guid(1b4995f7bfefb0041bc8dd775af8405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Rooftop.unity using Guid(1b4995f7bfefb0041bc8dd775af8405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6ea7e410d56e825b506db496e72536') in 0.023267 seconds 

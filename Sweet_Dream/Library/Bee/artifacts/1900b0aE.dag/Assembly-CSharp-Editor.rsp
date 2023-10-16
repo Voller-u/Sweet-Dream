@@ -115,6 +115,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -381,6 +382,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Tilemap.Extras.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEditorBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEngineBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.ref.dll"
@@ -442,6 +444,12 @@
 "Assets/ProCamera2D/Code/Triggers/Editor/ProCamera2DTriggerInfluenceEditor.cs"
 "Assets/ProCamera2D/Code/Triggers/Editor/ProCamera2DTriggerRailsEditor.cs"
 "Assets/ProCamera2D/Code/Triggers/Editor/ProCamera2DTriggerZoomEditor.cs"
+"Assets/RPG Cameras & Controllers/Scripts/Character/Camera/Editor/RPGCameraEditor.cs"
+"Assets/RPG Cameras & Controllers/Scripts/Character/Camera/Editor/RPGViewFrustumEditor.cs"
+"Assets/RPG Cameras & Controllers/Scripts/Character/Motor/Editor/RPGControllerEditor.cs"
+"Assets/RPG Cameras & Controllers/Scripts/Character/Motor/Editor/RPGMotorARPGEditor.cs"
+"Assets/RPG Cameras & Controllers/Scripts/Character/Motor/Editor/RPGMotorEditor.cs"
+"Assets/RPG Cameras & Controllers/Scripts/Character/Motor/Editor/RPGMotorMMOEditor.cs"
 -langversion:9.0
 
 /deterministic
