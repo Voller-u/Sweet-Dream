@@ -12,7 +12,15 @@ public class Player : MonoBehaviour
     protected Collider2D coll;
     protected Vector2 direction;
 
+    [SerializeField]
+    protected float curHealth;
+    public float  maxHealth;
 
+    //
+    [SerializeField]
+    [Header("Status")]
+    public bool isGod;//无敌状态   
+    public bool isStun;//眩晕状态
     // Start is called before the first frame update
     protected void Awake()
     {
@@ -22,7 +30,7 @@ public class Player : MonoBehaviour
     }
     protected void Start()
     {
-        
+        curHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -53,4 +61,9 @@ public class Player : MonoBehaviour
             animator.SetFloat("speed",direction.magnitude);
         }
     }
+
+    public void GotAttacked(float damage){
+
+    }
+
 }

@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2466752588650163746}
   - component: {fileID: 2466752588650163747}
-  - component: {fileID: 2466752588650163745}
   - component: {fileID: 2466752588650163744}
   - component: {fileID: 2466752588650163759}
   - component: {fileID: 2466752588650163758}
+  - component: {fileID: -7598501416299598098}
   m_Layer: 0
   m_Name: Yuki
   m_TagString: Player
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 496727327
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -581668134, guid: ab4dcb0cd3a09ef48a5c59deedc6cbb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -88,19 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2466752588650163745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2466752588650163748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61dccd87fcda4154f94f8bb567d5f7d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
 --- !u!95 &2466752588650163744
 Animator:
   serializedVersion: 4
@@ -168,3 +155,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.5}
   m_EdgeRadius: 0
+--- !u!114 &-7598501416299598098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2466752588650163748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a29981905b3d2248a867199cb1cbd1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
