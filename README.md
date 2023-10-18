@@ -22,8 +22,14 @@ A fan game about School-live!
 
 <details>
     <summary>战斗部分</summary>
+<details>
+    <summary>PlayBase</summary>
+- [ ] 角色移动
+- [x] 角色攻击
+- [ ] 角色受击
+- [x] 角色死亡
+</details>
 
-   - [ ] ...
 </details>
 
 <details>
