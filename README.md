@@ -5,7 +5,6 @@ A fan game about School-live!
   <summary>主线部分</summary>
 
    - [ ] 第一章
-
    - [ ] 第二章
    - [ ] 第三章
    - [ ] 第四章
@@ -24,14 +23,13 @@ A fan game about School-live!
     <summary>战斗部分</summary>
 <details>
     <summary>PlayBase</summary>
+
 - [ ] 角色移动
-- [x] 角色攻击
+- [ ] 角色攻击
 - [ ] 角色受击
-- [x] 角色死亡
+- [ ] 角色死亡
 </details>
-
 </details>
-
 <details>
     <summary>上课部分</summary>
 
