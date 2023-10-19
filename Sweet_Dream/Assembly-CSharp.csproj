@@ -213,6 +213,9 @@
      <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Inputs\Interfaces\IPointerInfo.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPostMover.cs" />
+     <Compile Include="Assets\Scripts\Planting\Plant.cs" />
+     <Compile Include="Assets\Scripts\Planting\TomatoPlant.cs" />
+     <Compile Include="Assets\Scripts\Food\food.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\RPG Cameras &amp; Controllers\Misc\Shaders\Standard with ZWrite.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

@@ -7,8 +7,8 @@ public class TimeManager : MonoBehaviour
 {
     private static TimeManager  instance;
     [SerializeField]
-    private int time;//从"2023-10-1"到现在经过的秒数
-    private int lastTime;//上次退出的时候的时间
+    public float time;//从"2023-10-1"到现在经过的秒数
+    public float lastTime;//上次退出的时候的时间
     private void Awake() {
         instance = this;
     }
