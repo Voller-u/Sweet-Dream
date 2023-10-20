@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Security;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,6 +17,8 @@ public class Plant : MonoBehaviour
     [HideInInspector]
     public int spriteNum;
     public bool isPlanted;
+
+    public bool isShown;
 
     public List<Sprite> sprites;
     public List<GameObject> plants;
@@ -59,20 +62,42 @@ public class Plant : MonoBehaviour
 
     protected void OnCollisionEnter2D(Collision2D other) {
         if(other.gameObject.tag == "Player"){
-            ShowText(other.gameObject);
+            StartCoroutine(ShowText(other.gameObject));
+        }
+    }
+
+    // protected void OnCollisionStay2D(Collision2D other) {
+    //     if(other.gameObject.tag == "Player"){
+    //         ShowText(other.gameObject);
+    //     }
+    // }
+
+    protected void  OnCollisionExit2D(Collision2D other) {
+        if(other.gameObject.tag == "Player"){
+            Debug.Log("离开了");
+            CloseText(other.gameObject);
         }
     }
     
-    protected void ShowText(GameObject player){
+    protected IEnumerator ShowText(GameObject player){
         TextMeshProUGUI plantText = player.GetComponent<Player>().plantText;
         GameObject plantTextPanel = player.GetComponent<Player>().textPanel;
         plantTextPanel.SetActive(true);
-        Debug.Log(((int)remainTime%60).ToString());
-        if(remainTime<=0){//如果已经成熟了
-            plantText.text = "作物已经成熟~";
-        }else{
-            plantText.text = "距离作物成熟还剩："+((int)remainTime/60).ToString()+"分"+((int)remainTime%60).ToString()+"秒";
+        isShown = true;
+        while(isShown){
+            Debug.Log(((int)remainTime%60).ToString());
+            if(remainTime<=0){//如果已经成熟了
+                plantText.text = "作物已经成熟~";
+            }else{
+                plantText.text = "距离作物成熟还剩："+((int)remainTime/60).ToString()+"分"+((int)remainTime%60).ToString()+"秒";
+            }
+            yield return new WaitForSeconds(0.5f);
         }
+        
+    }
+
+    protected void CloseText(GameObject player){
+        player.GetComponent<Player>().textPanel.SetActive(false);
     } 
 
 }
