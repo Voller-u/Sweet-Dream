@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.Burst.Intrinsics;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     public float speed; 
-
+    public TextMeshProUGUI plantText;
+    public GameObject textPanel; 
     protected Animator animator;
     protected Rigidbody2D rb;
     protected Collider2D coll;

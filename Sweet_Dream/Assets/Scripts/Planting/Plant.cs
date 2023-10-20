@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class Plant : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -56,5 +56,23 @@ public class Plant : MonoBehaviour
     public void Harvest(){
         RefreshSprites();
     }
+
+    protected void OnCollisionEnter2D(Collision2D other) {
+        if(other.gameObject.tag == "Player"){
+            ShowText(other.gameObject);
+        }
+    }
+    
+    protected void ShowText(GameObject player){
+        TextMeshProUGUI plantText = player.GetComponent<Player>().plantText;
+        GameObject plantTextPanel = player.GetComponent<Player>().textPanel;
+        plantTextPanel.SetActive(true);
+        Debug.Log(((int)remainTime%60).ToString());
+        if(remainTime<=0){//如果已经成熟了
+            plantText.text = "作物已经成熟~";
+        }else{
+            plantText.text = "距离作物成熟还剩："+((int)remainTime/60).ToString()+"分"+((int)remainTime%60).ToString()+"秒";
+        }
+    } 
 
 }

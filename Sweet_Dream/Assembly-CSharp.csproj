@@ -70,6 +70,7 @@
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Door.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DNumericBoundaries.cs" />
+     <Compile Include="Assets\Scripts\Planting\Plant.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Enemy\EnemySight.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
@@ -147,6 +148,7 @@
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DCinematicsToggle.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Inputs\RPGInputActions.cs" />
+     <Compile Include="Assets\Scripts\Food\Food.cs" />
      <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Enums\WithCameraRotation.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DPointerInfluence.cs" />
      <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Interfaces\IPlayer.cs" />
@@ -194,6 +196,7 @@
      <Compile Include="Assets\Scripts\UI\Slot.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DShake.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DParallax.cs" />
+     <Compile Include="Assets\Scripts\Planting\TomatoPlant.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DPixelPerfect.cs" />
      <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Enums\Axis.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
@@ -213,9 +216,6 @@
      <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Inputs\Interfaces\IPointerInfo.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPostMover.cs" />
-     <Compile Include="Assets\Scripts\Planting\Plant.cs" />
-     <Compile Include="Assets\Scripts\Planting\TomatoPlant.cs" />
-     <Compile Include="Assets\Scripts\Food\food.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\RPG Cameras &amp; Controllers\Misc\Shaders\Standard with ZWrite.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

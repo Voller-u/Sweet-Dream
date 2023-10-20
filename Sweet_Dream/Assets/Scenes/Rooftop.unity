@@ -7000,7 +7000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a61262c9f67244a855499214620dae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  harvestTime: 5
+  harvestTime: 30
   pastTime: 0
   startTime: 0
   remainTime: 0
