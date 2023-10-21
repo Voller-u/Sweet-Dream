@@ -14,6 +14,8 @@ public class Plant : MonoBehaviour
     public float startTime;//种植开始的时间
     public float remainTime;//收获剩余的时间
 
+    public Item plant;
+
     [HideInInspector]
     public int spriteNum;
     public bool isPlanted;
@@ -34,6 +36,7 @@ public class Plant : MonoBehaviour
     {
         pastTime += Time.deltaTime;
         remainTime = Mathf.Clamp(harvestTime-pastTime,0,harvestTime);
+        PlantOrHarvest();
         if(remainTime<=0) Mature();
         //timeText.text = remainTime.ToString();
     }
@@ -41,6 +44,7 @@ public class Plant : MonoBehaviour
     public void Mature(){
         if(isPlanted){
             RefreshSprites();
+            plant.itemNum = 4;
             isPlanted = false;
         }
     }
@@ -53,29 +57,29 @@ public class Plant : MonoBehaviour
     }
 
     public void Planted(){
+        RefreshSprites();
         isPlanted = true;
+        plant.itemNum = 0;
     }
 
     public void Harvest(){
         RefreshSprites();
+        Inventory.instance.AddItem(plant);
     }
 
     protected void OnCollisionEnter2D(Collision2D other) {
         if(other.gameObject.tag == "Player"){
             StartCoroutine(ShowText(other.gameObject));
+            StartCoroutine(PlantOrHarvest());
         }
     }
-
-    // protected void OnCollisionStay2D(Collision2D other) {
-    //     if(other.gameObject.tag == "Player"){
-    //         ShowText(other.gameObject);
-    //     }
-    // }
 
     protected void  OnCollisionExit2D(Collision2D other) {
         if(other.gameObject.tag == "Player"){
             Debug.Log("离开了");
             CloseText(other.gameObject);
+            StopCoroutine(ShowText(other.gameObject));
+            StopCoroutine(PlantOrHarvest());
         }
     }
     
@@ -99,5 +103,22 @@ public class Plant : MonoBehaviour
     protected void CloseText(GameObject player){
         player.GetComponent<Player>().textPanel.SetActive(false);
     } 
+
+    public IEnumerator PlantOrHarvest(){
+        while(isShown){
+            if(pastTime > harvestTime && Input.GetKeyDown(KeyCode.E)){
+                Debug.Log("收获了");
+                Harvest();
+            }
+            else if(!isPlanted && Input.GetKeyDown(KeyCode.E)){//如果还没种下
+                pastTime = 0;
+                isPlanted = true;
+                plant.itemNum = 0;
+                RefreshSprites();
+            }
+            yield return new WaitForSeconds(0.1f);
+        }
+        
+    }
 
 }

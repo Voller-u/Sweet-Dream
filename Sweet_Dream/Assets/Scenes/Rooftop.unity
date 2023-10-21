@@ -7000,12 +7000,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a61262c9f67244a855499214620dae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  harvestTime: 30
+  harvestTime: 5
   pastTime: 0
   startTime: 0
   remainTime: 0
+  plant:
+    itemName: Tomato
+    itemImage: {fileID: 21300110, guid: 2700e06d970d112489ff23cfb58c3f78, type: 3}
+    itemDescription: 
+    itemNum: 0
   spriteNum: 0
   isPlanted: 1
+  isShown: 0
   sprites:
   - {fileID: 21300000, guid: fec0b8aea6cce3d4686c8794300c941b, type: 3}
   - {fileID: 21300000, guid: ade619a300dd66f43a58ea683b591abc, type: 3}
