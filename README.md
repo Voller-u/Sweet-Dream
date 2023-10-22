@@ -16,8 +16,8 @@ A fan game about School-live!
 <details>
     <summary>种植部分</summary>
 
-   - [ ] 种下植物
-   - [ ] 收获植物
+   - [x] 种下植物
+   - [x] 收获植物
    - [x] 植物生长
 </details>
 

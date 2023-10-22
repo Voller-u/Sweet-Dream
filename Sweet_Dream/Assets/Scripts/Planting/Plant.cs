@@ -19,7 +19,7 @@ public class Plant : MonoBehaviour
     [HideInInspector]
     public int spriteNum;
     public bool isPlanted;
-
+    public bool isMature;
     public bool isShown;
 
     public List<Sprite> sprites;
@@ -34,91 +34,97 @@ public class Plant : MonoBehaviour
     // Update is called once per frame
     protected virtual void Update()
     {
-        pastTime += Time.deltaTime;
-        remainTime = Mathf.Clamp(harvestTime-pastTime,0,harvestTime);
-        PlantOrHarvest();
-        if(remainTime<=0) Mature();
-        //timeText.text = remainTime.ToString();
+        if(isPlanted && !isMature){
+            pastTime += Time.deltaTime;
+            remainTime = Mathf.Clamp(harvestTime-pastTime,0,harvestTime);
+        }
+        if(remainTime < 0.05f) Mature();
+        if(isShown) PlantOrHarvest();
     }
 
     public void Mature(){
-        if(isPlanted){
-            RefreshSprites();
+        if(!isMature){
+            RefreshSprites(1);
             plant.itemNum = 4;
-            isPlanted = false;
+            isMature = true;
+            pastTime = 0;
         }
     }
 
-    public void RefreshSprites(){
-        spriteNum = 1 - spriteNum;
+    public void RefreshSprites(int index){
+        Debug.Log(index);
         foreach(var plant in plants){
-            plant.GetComponent<SpriteRenderer>().sprite = sprites[spriteNum];
+            plant.GetComponent<SpriteRenderer>().sprite = sprites[index];
         }
     }
 
     public void Planted(){
-        RefreshSprites();
         isPlanted = true;
+        pastTime = 0;
         plant.itemNum = 0;
     }
 
     public void Harvest(){
-        RefreshSprites();
         Inventory.instance.AddItem(plant);
+        plant.itemNum = 0;
+        isMature = false;
+        isPlanted = false;
+        remainTime = harvestTime;
+        RefreshSprites(0);
     }
 
-    protected void OnCollisionEnter2D(Collision2D other) {
+
+    protected void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "Player"){
-            StartCoroutine(ShowText(other.gameObject));
-            StartCoroutine(PlantOrHarvest());
+            ShowText(other.gameObject);
         }
     }
 
-    protected void  OnCollisionExit2D(Collision2D other) {
+    protected void OnTriggerStay2D(Collider2D other) {
         if(other.gameObject.tag == "Player"){
-            Debug.Log("离开了");
+            ShowText(other.gameObject);
+        }
+        
+    }
+
+    protected void OnTriggerExit2D(Collider2D other) {
+        if(other.gameObject.tag == "Player"){
             CloseText(other.gameObject);
-            StopCoroutine(ShowText(other.gameObject));
-            StopCoroutine(PlantOrHarvest());
         }
     }
-    
-    protected IEnumerator ShowText(GameObject player){
+
+    protected void ShowText(GameObject player){
         TextMeshProUGUI plantText = player.GetComponent<Player>().plantText;
         GameObject plantTextPanel = player.GetComponent<Player>().textPanel;
         plantTextPanel.SetActive(true);
         isShown = true;
-        while(isShown){
-            Debug.Log(((int)remainTime%60).ToString());
-            if(remainTime<=0){//如果已经成熟了
-                plantText.text = "作物已经成熟~";
-            }else{
-                plantText.text = "距离作物成熟还剩："+((int)remainTime/60).ToString()+"分"+((int)remainTime%60).ToString()+"秒";
-            }
-            yield return new WaitForSeconds(0.5f);
+        if(isMature){//如果已经成熟了
+            plantText.text = "作物已经成熟~";
+        }else if(isPlanted){
+            plantText.text = "距离作物成熟还剩："+((int)remainTime/60).ToString()+"分"+((int)Mathf.Ceil(remainTime%60)).ToString()+"秒";
+        }else{
+            //植物还没种下
+            plantText.text = "";
         }
-        
     }
 
     protected void CloseText(GameObject player){
         player.GetComponent<Player>().textPanel.SetActive(false);
+        isShown = false;
     } 
 
-    public IEnumerator PlantOrHarvest(){
-        while(isShown){
-            if(pastTime > harvestTime && Input.GetKeyDown(KeyCode.E)){
+    public void PlantOrHarvest(){
+        if(Input.GetKeyDown(KeyCode.E)){
+            if(isMature){
                 Debug.Log("收获了");
                 Harvest();
+                
             }
-            else if(!isPlanted && Input.GetKeyDown(KeyCode.E)){//如果还没种下
-                pastTime = 0;
-                isPlanted = true;
-                plant.itemNum = 0;
-                RefreshSprites();
+            else if(!isPlanted){//如果还没种下
+                Debug.Log("种下了");
+                Planted();
             }
-            yield return new WaitForSeconds(0.1f);
         }
         
     }
-
 }

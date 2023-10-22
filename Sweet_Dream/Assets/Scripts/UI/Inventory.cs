@@ -56,7 +56,7 @@ public class Inventory : MonoBehaviour
     public void AddItem(Item item){
         int index = Inventory.instance.Contain(item);
         if(index > -1){
-            Inventory.instance.itemList[index].itemNum++;
+            Inventory.instance.itemList[index].itemNum+=item.itemNum;
         }
         else{
             //新的ITEM
