@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
 
     //
     [SerializeField]
-    [Header("Status")]
+    [Header("状态")]
     public bool isGod;//无敌状态   
     public bool isStun;//眩晕状态
     // Start is called before the first frame update

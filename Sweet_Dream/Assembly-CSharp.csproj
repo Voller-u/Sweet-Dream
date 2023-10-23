@@ -36,37 +36,29 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Exploder\Scripts\3rd\P2T.dll" />
+  </ItemGroup>
+  <ItemGroup>
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\Player\PlayerInput.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Interfaces\IRPGController.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Utils\MinMaxSliderAttribute.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\RPGMotorMMO.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\Player\PlayerInputBot.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\RPGController.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\RPGCamera.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\CauseCameraLookUp.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\ISizeDeltaChanger.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DCinematics.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Enemy\EnemyFSM.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\MoveInColliderBoundaries.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Enums\MotorState.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\ThirdPartyAssets\Unity\3DGamekit\Packages\WorldBuilding\Runtime\Variations.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Water.cs" />
      <Compile Include="Assets\Scripts\TileManager.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\BoundariesAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\ProCamera2D\ProCamera2D.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Pool\Pool.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\ThirdPartyAssets\Unity\3DGamekit\Packages\Skybox3D\Runtime\Skybox3D.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\ObjectRotate.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\ISizeOverrider.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Bullet.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DAdjustCameraTargetInfluence.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\CharacterControllerExt.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\RoomsEventsExample.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Interfaces\ICharacter.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Door.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DNumericBoundaries.cs" />
@@ -78,22 +70,17 @@
      <Compile Include="Assets\Scripts\UI\Dialog\Test.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Enemy\EnemyPatrol.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Utils\EditorPrefsX.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\FadeOut.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\Enums\CursorHiding.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DLimitSpeed.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\Scripts\UI\Inventory.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\CameraTarget.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\RPGViewFrustum.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DMoveCameraInstantlyToPosition.cs" />
      <Compile Include="Assets\Scripts\CameraFollwed.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\GameOver.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Enemy\EnemyWander.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\ObjectMove.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\Enums\CursorBehavior.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\Interfaces\IRPGCamera.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\KDTree.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
@@ -102,18 +89,14 @@
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\FsmStateActionProCamera2DBase.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DShakeWithValues.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPositionOverrider.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Enums\MidairMovement.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\RPGMotorARPG.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DLimitDistance.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\RPGMotor.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\ProCamera2DTriggerZoom.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Enemy\PatrolWaypoint.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Enums\ClimbingState.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Helpers\Parallax\ProCamera2DParallaxObject.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DApplyInfluencesTimed.cs" />
@@ -122,16 +105,12 @@
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DCameraWindow.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\RotateTowardsMouse.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\SwitchCameraProjection.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Interfaces\IRPGMotor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DContentFitter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\ProCamera2DTriggerBoundaries.cs" />
      <Compile Include="Assets\Scripts\UI\InventoryDrag.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\RPGPlayerExample.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DGeometryBoundaries.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\ThirdPartyAssets\Unity\3DGamekit\Scripts\Game\Graphics\GlobalShaderSettings.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\Enums\FrustumShape.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DSpeedBasedZoom.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\ShakeExample.cs" />
@@ -143,26 +122,19 @@
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DZoomToFitTargets.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\EnumMovementAxis.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\EnumUpdateType.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\Enums\ObjectTriggerOption.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DCinematicsToggle.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Inputs\RPGInputActions.cs" />
      <Compile Include="Assets\Scripts\Food\Food.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Enums\WithCameraRotation.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DPointerInfluence.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Interfaces\IPlayer.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Goal.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\Enums\Follow.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Enemy\EnemyAttack.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DForwardFocus.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Utils.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\ConstantShakePreset.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DShakeWithPreset.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPreMover.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DShakeConstantStop.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Interfaces\ITransportable.cs" />
      <Compile Include="Assets\Scripts\Classroom\Content.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DTransitionsFX.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Helpers\TransitionFX\BasicBlit.cs" />
@@ -175,7 +147,6 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DShakeConstantWithPreset.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\DollyZoomExample.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\Interfaces\IRPGViewFrustum.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Helpers\Pixel Perfect\ProCamera2DPixelPerfectSprite.cs" />
@@ -184,9 +155,7 @@
      <Compile Include="Assets\Scripts\Collectable.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPositionDeltaChanger.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DAddCameraTarget.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Enums\CharacterAlignment.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DApplyInfluence.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\MovingPlatform.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DRails.cs" />
      <Compile Include="Assets\ProCamera2D\3rd Party Plugins Support\PlayMakerActions\PC2DRemoveCameraTarget.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DRooms.cs" />
@@ -198,47 +167,34 @@
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DParallax.cs" />
      <Compile Include="Assets\Scripts\Planting\TomatoPlant.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DPixelPerfect.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Enums\Axis.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Player\PlayerFire.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Inputs\RPGInputManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\Scripts\Base\Global.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\DoorKey.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\ToggleTransitionsFX.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Demo\Scripts\DemoGUI.cs" />
      <Compile Include="Assets\Scripts\Base\TimeManager.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\Enums\CameraSelection.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Inputs\Interfaces\IPointerInfo.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPostMover.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-     <None Include="Assets\RPG Cameras &amp; Controllers\Misc\Shaders\Standard with ZWrite.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\RPG Cameras &amp; Controllers\ThirdPartyAssets\Blink\README.txt" />
-     <None Include="Assets\RPG Cameras &amp; Controllers\Integration\RPGBuilder\README.txt" />
      <None Include="Assets\___www.unityassetcollection.com___.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <None Include="Assets\ProCamera2D\Code\Helpers\TransitionFX\Resources\PC2D_Fade.shader" />
-     <None Include="Assets\RPG Cameras &amp; Controllers\ThirdPartyAssets\Unity\3DGamekit\Art\Shaders\Rock.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-     <None Include="Assets\RPG Cameras &amp; Controllers\Misc\Shaders\Standard (Specular setup) with ZWrite.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\RPG Cameras &amp; Controllers\ThirdPartyAssets\Unity\3DGamekit\Art\Shaders\GroundCover.shader" />
      <None Include="Assets\ProCamera2D\Code\Helpers\TransitionFX\Resources\PC2D_Texture.shader" />
-     <None Include="Assets\RPG Cameras &amp; Controllers\ThirdPartyAssets\Unity\3DGamekit\Art\Shaders\Terrain.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\RPG Cameras &amp; Controllers\ThirdPartyAssets\Unity\3DGamekit\Art\Shaders\GroundFog.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\ProCamera2D\Code\Helpers\TransitionFX\Resources\PC2D_Circle.shader" />
@@ -246,14 +202,11 @@
      <None Include="Assets\ProCamera2D\Code\Helpers\Letterbox\Resources\Letterbox.shader" />
      <None Include="Assets\Farming Asset Pack\NOTES.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\RPG Cameras &amp; Controllers\ThirdPartyAssets\Unity\3DGamekit\Art\Shaders\Stonework.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\ProCamera2D\TransitionFX Textures\README.txt" />
-     <None Include="Assets\RPG Cameras &amp; Controllers\Misc\Shaders\GUI\Default_OverlayNoZTest.shader" />
      <None Include="Assets\ProCamera2D\Code\Helpers\TransitionFX\Resources\PC2D_Wipe.shader" />
      <None Include="Assets\ProCamera2D\Code\Helpers\TransitionFX\Resources\PC2D_Blinds.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\RPG Cameras &amp; Controllers\Misc\Shaders\Bumped Diffuse with ZWrite.shader" />
      <None Include="Assets\ProCamera2D\Timeline\README.txt" />
      <None Include="Assets\ProCamera2D\README.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
@@ -263,7 +216,6 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
-     <None Include="Assets\RPG Cameras &amp; Controllers\ThirdPartyAssets\Unity\3DGamekit\Art\Shaders\SimpleSky.shader" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2021.3.10f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -539,6 +491,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="P2T">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Exploder\Scripts\3rd\P2T.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>D:\Unity\2021.3.10f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

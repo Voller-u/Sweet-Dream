@@ -36,6 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Exploder\Scripts\3rd\P2T.dll" />
+  </ItemGroup>
+  <ItemGroup>
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DNumericBoundariesEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\Editor\ProCamera2DTriggerZoomEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Editor\ProCamera2DHierarchyIcon.cs" />
@@ -47,26 +50,20 @@
      <Compile Include="Assets\ProCamera2D\Code\Core\Editor\ProCamera2DPrefs.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Editor\ProCamera2DEditorResources.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Editor\ScriptableObjectUtility.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\Editor\RPGCameraEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DRailsEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Editor\CleanupMissingScripts.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\Editor\ProCamera2DTriggerInfluenceEditor.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Editor\RPGMotorARPGEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DParallaxEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DShakeEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DPixelPerfectEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DRepeaterEditor.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Camera\Editor\RPGViewFrustumEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DPanAndZoomEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\Editor\ProCamera2DTriggerRailsEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DGeometryBoundariesEditor.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Editor\RPGMotorEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DPointerInfluenceEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DForwardFocusEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Editor\ShakePresetEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DZoomToFitTargetsEditor.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Editor\RPGControllerEditor.cs" />
-     <Compile Include="Assets\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Editor\RPGMotorMMOEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DContentFitterEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DLimitSpeedEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Editor\RenderPipelineDefines.cs" />
@@ -399,6 +396,9 @@
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="P2T">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Exploder\Scripts\3rd\P2T.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
