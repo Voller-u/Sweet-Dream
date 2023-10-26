@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
-    public float speed; 
+     
     public TextMeshProUGUI plantText;
     public GameObject textPanel; 
     protected Animator animator;
@@ -15,8 +15,14 @@ public class Player : MonoBehaviour
     protected Vector2 direction;
 
     [SerializeField]
+    [Header("基本属性")]
     protected float curHealth;
     public float  maxHealth;
+    public float speed;//速度
+    public float attack;//攻击力
+    public float defence;//防御力
+
+    public float intellect;//理智值
 
     //
     [SerializeField]
@@ -30,7 +36,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<Collider2D>();
     }
-    protected void Start()
+    protected virtual void  Start()
     {
         curHealth = maxHealth;
     }

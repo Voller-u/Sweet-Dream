@@ -230,9 +230,9 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\Utils\EditModeUtils.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\TimelineClipGroup.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\inspectors\TimelineAssetInspector.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Utilities\PropertyCollector.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Activation\ActivationTrackEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\Sequence\EaseClip.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Utilities\PropertyCollector.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Window\ViewModel\TimelineWindowViewPrefs.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Activation\ActivationTrackInspector.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\Utils\ManipulatorsUtils.cs" />
@@ -623,6 +623,9 @@
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="TutorialWizardMiniMap">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\UGUIMiniMap\Content\Scripts\Internal\Editor\Plugins\TutorialWizardMiniMap.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>

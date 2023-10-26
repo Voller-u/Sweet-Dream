@@ -61,8 +61,8 @@
      <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Action\PDFAction.cs" />
      <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Examples\Scripts\API_Usage.cs" />
      <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Examples\Scripts\PDFDocumentRenderToTextureExample.cs" />
-     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Examples\Scripts\PDFBytesSupplierExample.cs" />
      <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Action\PDFActionHandlerHelper.cs" />
+     <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Examples\Scripts\PDFBytesSupplierExample.cs" />
      <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\PDFBookmark.cs" />
      <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\Internal\Scripts\PDFBitmap.cs" />
      <Compile Include="Assets\Plugins\Paroxe\PDFRenderer\API\Rendering\IPDFColoredRectListProvider.cs" />
@@ -393,6 +393,9 @@
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="TutorialWizardMiniMap">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\UGUIMiniMap\Content\Scripts\Internal\Editor\Plugins\TutorialWizardMiniMap.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>

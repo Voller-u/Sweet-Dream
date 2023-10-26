@@ -544,7 +544,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &352296484
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3502,7 +3502,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  inventory: {fileID: 0}
+  plantText: {fileID: 0}
+  textPanel: {fileID: 0}
+  curHealth: 0
+  maxHealth: 0
+  isGod: 0
+  isStun: 0
 --- !u!95 &1682158663
 Animator:
   serializedVersion: 4

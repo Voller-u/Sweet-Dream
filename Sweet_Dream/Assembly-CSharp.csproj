@@ -36,9 +36,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Exploder\Scripts\3rd\P2T.dll" />
-  </ItemGroup>
-  <ItemGroup>
      <Compile Include="Assets\ProCamera2D\Examples\Platformer\Scripts\Player\PlayerInput.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Utils\MinMaxSliderAttribute.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
@@ -50,8 +47,8 @@
      <Compile Include="Assets\ProCamera2D\Code\Core\MoveInColliderBoundaries.cs" />
      <Compile Include="Assets\Scripts\TileManager.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\BoundariesAnimator.cs" />
-     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\ProCamera2D\ProCamera2D.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Pool\Pool.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\ObjectRotate.cs" />
@@ -68,8 +65,8 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
      <Compile Include="Assets\Scripts\UI\Dialog\Test.cs" />
-     <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Enemy\EnemyPatrol.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Utils\EditorPrefsX.cs" />
+     <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Enemy\EnemyPatrol.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DLimitSpeed.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -491,9 +488,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="P2T">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Exploder\Scripts\3rd\P2T.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>D:\Unity\2021.3.10f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

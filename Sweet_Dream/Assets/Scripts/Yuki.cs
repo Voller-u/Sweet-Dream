@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class Yuki : Player
 {
-   protected void Start(){
-        
+   protected override void Start(){
+        base.Start();
    }
 }

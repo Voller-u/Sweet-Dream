@@ -36,9 +36,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Exploder\Scripts\3rd\P2T.dll" />
-  </ItemGroup>
-  <ItemGroup>
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DNumericBoundariesEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\Editor\ProCamera2DTriggerZoomEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Editor\ProCamera2DHierarchyIcon.cs" />
@@ -54,8 +51,8 @@
      <Compile Include="Assets\ProCamera2D\Code\Core\Editor\CleanupMissingScripts.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\Editor\ProCamera2DTriggerInfluenceEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DParallaxEditor.cs" />
-     <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DShakeEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DPixelPerfectEditor.cs" />
+     <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DShakeEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DRepeaterEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DPanAndZoomEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\Editor\ProCamera2DTriggerRailsEditor.cs" />
@@ -388,6 +385,9 @@
     <Reference Include="Unity.Burst.Cecil">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="TutorialWizardMiniMap">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\UGUIMiniMap\Content\Scripts\Internal\Editor\Plugins\TutorialWizardMiniMap.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
@@ -396,9 +396,6 @@
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="P2T">
-        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Plugins\Exploder\Scripts\3rd\P2T.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
