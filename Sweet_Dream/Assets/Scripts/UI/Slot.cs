@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using TMPro;
 public class Slot : MonoBehaviour,IPointerClickHandler
 {
     public Item item;
-    public Text itemNum;
+    //public Text itemNum;
+    public TextMeshProUGUI itemNum;
     private Text itemDescription;
 
     public int slotID;
