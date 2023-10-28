@@ -4,6 +4,7 @@ using TMPro;
 using Unity.Burst.Intrinsics;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 public class Player : MonoBehaviour
 {
      
@@ -19,10 +20,13 @@ public class Player : MonoBehaviour
     protected float curHealth;
     public float  maxHealth;
     public float speed;//速度
+    public float curSpeed;//当前速度
     public float attack;//攻击力
     public float defence;//防御力
 
-    public float intellect;//理智值
+    public float curintellect;//理智值
+
+    public float maxIntellect;//最大理智值
 
     //
     [SerializeField]
@@ -38,7 +42,7 @@ public class Player : MonoBehaviour
     }
     protected virtual void  Start()
     {
-        curHealth = maxHealth;
+        Init();
     }
 
     // Update is called once per frame
@@ -46,15 +50,20 @@ public class Player : MonoBehaviour
     {
         Move();
         SwitchAnimation();
+        ReleaseSkill();
     }
 
-
+    private void Init(){
+        curSpeed = speed;
+        curHealth = maxHealth;
+        curintellect = maxIntellect;
+    }
 
     public void Move()
     {
         direction.x = Input.GetAxisRaw("Horizontal");
         direction.y = Input.GetAxisRaw("Vertical");
-        transform.position += new Vector3(speed * direction.x * Time.deltaTime,speed * direction.y *Time.deltaTime,0f);
+        transform.position += new Vector3(curSpeed * direction.x * Time.deltaTime,curSpeed * direction.y *Time.deltaTime,0f);
     }
 
     protected void SwitchAnimation()
@@ -74,4 +83,18 @@ public class Player : MonoBehaviour
 
     }
 
+    public void ReleaseSkill(){
+        ReleaseSkillFir();
+    }
+
+    public void ReleaseSkillFir(){
+        if(Input.GetKeyDown(KeyCode.Space)){
+            float time = 0;
+            DOTween.To(()=>time,X=>time=X,1,5f).OnStart(()=>{
+                BuffDistributer.instance.GiveBuffToPlayer(gameObject,BuffType.ChangeSpeed,num:speed*0.2f);
+            }).OnComplete(()=>{
+                BuffDistributer.instance.GiveBuffToPlayer(gameObject,BuffType.ChangeSpeed,num:-speed*0.2f);
+            });
+        }
+    }
 }

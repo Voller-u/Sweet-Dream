@@ -26,12 +26,11 @@ A fan game about School-live!
 <details>
     <summary>PlayBase</summary>
 
-
-
-- [ ] 角色移动
+- [x] 角色移动
 - [ ] 角色攻击
 - [ ] 角色受击
 - [ ] 角色死亡
+- [ ] buff系统
 
 </details>
 </details>
