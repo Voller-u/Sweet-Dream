@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    protected void Update()
+    protected virtual void Update()
     {
         Move();
         SwitchAnimation();

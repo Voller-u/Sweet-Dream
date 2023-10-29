@@ -160,12 +160,14 @@
      <Compile Include="Assets\Scripts\Yuki.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Helpers\Letterbox\ProCamera2DLetterbox.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Player\PlayerInput.cs" />
+     <Compile Include="Assets\Scripts\Base\BuffDistributer.cs" />
      <Compile Include="Assets\Scripts\UI\Slot.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DShake.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DParallax.cs" />
      <Compile Include="Assets\Scripts\Planting\TomatoPlant.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DPixelPerfect.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+     <Compile Include="Assets\Scripts\Buff.cs" />
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Player\PlayerFire.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
@@ -178,8 +180,6 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\IPostMover.cs" />
-     <Compile Include="Assets\Scripts\Buff.cs" />
-     <Compile Include="Assets\Scripts\Base\BuffDistributer.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\___www.unityassetcollection.com___.txt" />
