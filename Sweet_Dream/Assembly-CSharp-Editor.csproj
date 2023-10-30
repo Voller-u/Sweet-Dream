@@ -70,6 +70,13 @@
      <Compile Include="Assets\ProCamera2D\Code\Extensions\Editor\ProCamera2DCameraWindowEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Core\Editor\ConstantShakePresetEditor.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Triggers\Editor\ProCamera2DTriggerBoundariesEditor.cs" />
+     <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\IntSliderDrawer.cs" />
+     <Compile Include="Assets\Behavior Designer\Editor\BehaviorTreeInspector.cs" />
+     <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\StackedActionDrawer.cs" />
+     <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\StackedConditionalDrawer.cs" />
+     <Compile Include="Assets\Behavior Designer\Editor\Object Drawers\FloatSliderDrawer.cs" />
+     <Compile Include="Assets\Behavior Designer\Editor\ExternalBehaviorTreeInspector.cs" />
+     <None Include="Assets\Behavior Designer\Editor\GridShader.shader" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2021.3.10f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -396,6 +403,12 @@
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Runtime">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Editor">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

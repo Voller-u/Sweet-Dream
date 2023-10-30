@@ -13,17 +13,22 @@ public class Enemy : MonoBehaviour
     public float curAttack;//当前攻击力
     public float defenceInit;//防御力
     public float curDefence;//当前防御力
+
+    public GameObject player;
     
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
         transform.position = new Vector3(transform.position.x + speed*Time.deltaTime,transform.position.y,transform.position.z);
+        player = GameObject.FindObjectOfType<Player>().gameObject;
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
-        
+        var offset = (player.transform.position - transform.position).normalized;
+        transform.position = new Vector3(transform.position.x + speed * offset.x * Time.deltaTime,
+        transform.position.y + speed * offset.y * Time.deltaTime,0);
     }
 
     protected void Init(){

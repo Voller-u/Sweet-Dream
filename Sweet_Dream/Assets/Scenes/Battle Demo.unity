@@ -155,7 +155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2466752588650163746, guid: b2872932197cb8847b1260e77faabaf9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3.9
       objectReference: {fileID: 0}
     - target: {fileID: 2466752588650163746, guid: b2872932197cb8847b1260e77faabaf9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -546,9 +546,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 0
-  speed: 0
+  speed: 2
   curSpeed: 0
   attackInit: 0
   curAttack: 0
   defenceInit: 0
   curDefence: 0
+  player: {fileID: 0}

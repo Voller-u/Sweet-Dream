@@ -120,6 +120,8 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll"
+-r:"Assets/Behavior Designer/Editor/BehaviorDesigner.Editor.dll"
+-r:"Assets/Behavior Designer/Runtime/BehaviorDesigner.Runtime.dll"
 -r:"Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll"
 -r:"Assets/Plugins/Demigiant/DemiLib/Core/Editor/DemiEditor.dll"
 -r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
@@ -411,6 +413,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Behavior Designer/Editor/BehaviorTreeInspector.cs"
+"Assets/Behavior Designer/Editor/ExternalBehaviorTreeInspector.cs"
+"Assets/Behavior Designer/Editor/Object Drawers/FloatSliderDrawer.cs"
+"Assets/Behavior Designer/Editor/Object Drawers/IntSliderDrawer.cs"
+"Assets/Behavior Designer/Editor/Object Drawers/StackedActionDrawer.cs"
+"Assets/Behavior Designer/Editor/Object Drawers/StackedConditionalDrawer.cs"
 "Assets/ProCamera2D/Code/Core/Editor/CleanupMissingScripts.cs"
 "Assets/ProCamera2D/Code/Core/Editor/ConstantShakePresetEditor.cs"
 "Assets/ProCamera2D/Code/Core/Editor/MinMaxSliderDrawer.cs"

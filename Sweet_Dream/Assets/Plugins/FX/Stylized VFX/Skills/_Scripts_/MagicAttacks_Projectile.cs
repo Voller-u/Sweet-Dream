@@ -40,6 +40,7 @@ public class MagicAttacks_Projectile : MonoBehaviour
 
     private void Update()
     {
+        transform.right = projectileDir;
         transform.position += projectileDir * moveSpeed * Time.deltaTime;
         Destroy(gameObject, 10f);
     }
