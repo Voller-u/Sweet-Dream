@@ -56,7 +56,37 @@ public class BuffDistributer : MonoBehaviour
     }
 
     //给敌人发配buff
-    public void GiveBuffToEnemy(GameObject enemy,int buffType){
+    public void GiveBuffToEnemy(GameObject enemy,BuffType buffType,float rate = 1f,float num = 0){
+        Enemy target = enemy.GetComponent<Enemy>();
+        if(target == null) return;
+        switch(buffType){
+            case BuffType.ChangeMaxHealth:{
+                break;
+            }
 
+            case BuffType.ChangeHealth:{
+                break;
+            }
+
+            case BuffType.ChangeSpeed:{
+                if(num != 0){
+                    target.curSpeed += num;
+                }
+                else target.curSpeed *= rate;
+                break;
+            }
+
+            case BuffType.ChangeAttack:{
+                break;
+            }
+
+            case BuffType.ChangeDefence:{
+                break;
+            }
+
+            case BuffType.ChangeIntellect:{
+                break;
+            }
+        }
     }
 }

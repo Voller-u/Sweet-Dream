@@ -138,6 +138,7 @@
      <Compile Include="Assets\Plugins\RPG Cameras &amp; Controllers\Scripts\Character\Motor\RPGMotor.cs" />
      <Compile Include="Assets\Plugins\UGUIMiniMap\Content\Scripts\Runtime\Misc\bl_MiniMapPlayer.cs" />
      <Compile Include="Assets\Plugins\TEXDraw\Script\TEXDraw3DRenderer.cs" />
+     <Compile Include="Assets\Plugins\FX\Stylized VFX\Skills\_Scripts_\MagicAttacks_Projectile.cs" />
      <Compile Include="Assets\Plugins\TEXDraw\Core\Engine\TexParserState.cs" />
      <Compile Include="Assets\Plugins\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Enums\ClimbingState.cs" />
      <Compile Include="Assets\Plugins\UGUIMiniMap\Content\Scripts\Internal\Scriptables\bl_MiniMapIconData.cs" />
@@ -151,6 +152,7 @@
      <Compile Include="Assets\Plugins\UGUIMiniMap\Content\Scripts\Internal\General\bl_MiniMapEvents.cs" />
      <Compile Include="Assets\Plugins\TEXDraw\Core\Internal\ReflectionUtility.cs" />
      <Compile Include="Assets\Plugins\UGUIMiniMap\Example\Standard Assets\Characters\FirstPersonCharacter\Scripts\MinimapPlayerController.cs" />
+     <Compile Include="Assets\Plugins\FX\Stylized VFX\Skills\_Scripts_\Demo_Manager.cs" />
      <Compile Include="Assets\Plugins\TEXDraw\Core\Box\LayoutBox.cs" />
      <Compile Include="Assets\Plugins\RPG Cameras &amp; Controllers\ThirdPartyAssets\Unity\3DGamekit\Scripts\Game\Graphics\GlobalShaderSettings.cs" />
      <Compile Include="Assets\Plugins\TEXDraw\Core\Atom\FlexibleAtom.cs" />
@@ -163,6 +165,7 @@
      <Compile Include="Assets\Plugins\UGUIMiniMap\Example\Scripts\bl_CreateItemExample.cs" />
      <Compile Include="Assets\Plugins\TEXDraw\Script\TEXDraw3D.cs" />
      <Compile Include="Assets\Plugins\TEXDraw\Script\TEXLinkBase.cs" />
+     <Compile Include="Assets\Plugins\FX\Stylized VFX\Skills\_Scripts_\Slash_Manager.cs" />
      <Compile Include="Assets\Plugins\RPG Cameras &amp; Controllers\Scripts\Character\Camera\Enums\ObjectTriggerOption.cs" />
      <Compile Include="Assets\Plugins\LitJson\Netstandard15Polyfill.cs" />
      <Compile Include="Assets\Plugins\RPG Cameras &amp; Controllers\Scripts\Inputs\RPGInputActions.cs" />
@@ -170,6 +173,7 @@
      <Compile Include="Assets\Plugins\UGUIMiniMap\Content\Scripts\Internal\Enum\MiniMapEnums.cs" />
      <Compile Include="Assets\Plugins\RPG Cameras &amp; Controllers\Scripts\Character\Motor\Enums\WithCameraRotation.cs" />
      <Compile Include="Assets\Plugins\TEXDraw\Sample\Scripts\TexConstantUpdater.cs" />
+     <Compile Include="Assets\Plugins\FX\Stylized VFX\Skills\_Scripts_\MagicAttacks_Manager.cs" />
      <Compile Include="Assets\Plugins\TEXDraw\Core\Atom\SpaceAtom.cs" />
      <Compile Include="Assets\Plugins\RPG Cameras &amp; Controllers\Scripts\Character\Interfaces\IPlayer.cs" />
      <Compile Include="Assets\Plugins\UGUIMiniMap\Content\Scripts\Runtime\Misc\bl_MiniMapPlane.cs" />
@@ -226,10 +230,6 @@
      <Compile Include="Assets\Plugins\TEXDraw\Core\Atom\AlignmentAtom.cs" />
      <Compile Include="Assets\Plugins\RPG Cameras &amp; Controllers\Scripts\Inputs\Interfaces\IPointerInfo.cs" />
      <Compile Include="Assets\Plugins\TEXDraw\Core\Atom\SoftBreakAtom.cs" />
-     <Compile Include="Assets\Plugins\FX\Stylized VFX\Skills\_Scripts_\Slash_Manager.cs" />
-     <Compile Include="Assets\Plugins\FX\Stylized VFX\Skills\_Scripts_\MagicAttacks_Projectile.cs" />
-     <Compile Include="Assets\Plugins\FX\Stylized VFX\Skills\_Scripts_\Demo_Manager.cs" />
-     <Compile Include="Assets\Plugins\FX\Stylized VFX\Skills\_Scripts_\MagicAttacks_Manager.cs" />
      <None Include="Assets\Plugins\RPG Cameras &amp; Controllers\Misc\Shaders\Standard with ZWrite.shader" />
      <None Include="Assets\Plugins\UGUIMiniMap\Content\Art\Shader\Mask.shader" />
      <None Include="Assets\Plugins\FX\Stylized VFX\Shared\Shaders\SH_VFX_Veffects_AB_Dissolve.shader" />

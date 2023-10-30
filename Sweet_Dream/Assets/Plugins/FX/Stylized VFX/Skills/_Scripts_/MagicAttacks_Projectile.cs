@@ -46,6 +46,7 @@ public class MagicAttacks_Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "Enemy"){
+            //BuffDistributer.
             Debug.Log("打中了！");
             GameObject hitFX;
             hitFX = Instantiate(FX_Hit, other.transform.position, Quaternion.identity);

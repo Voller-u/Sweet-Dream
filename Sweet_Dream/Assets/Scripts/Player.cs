@@ -21,8 +21,10 @@ public class Player : MonoBehaviour
     public float  maxHealth;
     public float speed;//速度
     public float curSpeed;//当前速度
-    public float attack;//攻击力
-    public float defence;//防御力
+    public float attackInit;//攻击力
+    public float curAttack;//当前攻击力
+    public float defenceInit;//防御力
+    public float curDefence;//当前防御力
 
     public float curintellect;//理智值
 
@@ -57,6 +59,8 @@ public class Player : MonoBehaviour
         curSpeed = speed;
         curHealth = maxHealth;
         curintellect = maxIntellect;
+        curAttack = attackInit;
+        curDefence = defenceInit;
     }
 
     public void Move()

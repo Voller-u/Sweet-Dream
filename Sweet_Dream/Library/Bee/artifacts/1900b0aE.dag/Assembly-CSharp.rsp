@@ -487,6 +487,7 @@
 "Assets/Scripts/CameraFollwed.cs"
 "Assets/Scripts/Classroom/Content.cs"
 "Assets/Scripts/Collectable.cs"
+"Assets/Scripts/Enemy.cs"
 "Assets/Scripts/Food/Food.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Item.cs"
