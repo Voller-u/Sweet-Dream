@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 public class Yuki : Player
 {
@@ -26,8 +28,11 @@ public class Yuki : Player
          GameObject bul = Instantiate(bullet2);
          bul.transform.parent = transform;
          bul.transform.localPosition =new Vector3(0,0,100);
-         bul.transform.localEulerAngles = new Vector3(attackDirection.x * 100,-90,-90);
-         
+         if(attackDirection.x ==0) bul.transform.localEulerAngles = new Vector3(235-attackDirection.y*80,-90,-90);
+         else bul.transform.localEulerAngles = new Vector3((float)(Math.Acos(attackDirection.x/Math.Sqrt(attackDirection.x*attackDirection.x + attackDirection.y*attackDirection.y))/Math.PI*2*80+75),-90,-90);
+         Debug.Log(attackDirection);
+         Debug.Log((float)(Math.Acos(attackDirection.x/Math.Sqrt(attackDirection.x*attackDirection.x + attackDirection.y*attackDirection.y))/Math.PI*2*80+75));
+         Debug.Log(bul.transform.localEulerAngles);
          //bul.GetComponent<MagicAttacks_Projectile>().Setup(attackDirection);
       }
    }
