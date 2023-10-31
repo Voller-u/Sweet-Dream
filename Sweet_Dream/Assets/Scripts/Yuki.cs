@@ -5,6 +5,7 @@ public class Yuki : Player
 {
    [Header("技能")]
    public GameObject bullet;
+   public GameObject bullet2;
    protected override void Start(){
         base.Start();
    }
@@ -20,6 +21,14 @@ public class Yuki : Player
          bul.transform.localPosition =new Vector3(0,0,100);
          bul.transform.parent = transform.parent;
          bul.GetComponent<MagicAttacks_Projectile>().Setup(attackDirection);
+      }
+      if(Input.GetKeyDown(KeyCode.Q)){
+         GameObject bul = Instantiate(bullet2);
+         bul.transform.parent = transform;
+         bul.transform.localPosition =new Vector3(0,0,100);
+         bul.transform.localEulerAngles = new Vector3(attackDirection.x * 100,-90,-90);
+         
+         //bul.GetComponent<MagicAttacks_Projectile>().Setup(attackDirection);
       }
    }
 
