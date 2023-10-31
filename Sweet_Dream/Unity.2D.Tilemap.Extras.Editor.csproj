@@ -36,18 +36,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Brushes\RandomBrush\RandomBrush.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Tiles\RuleOverrideTile\RuleOverrideTileEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Menu\MenuItemOrder.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Brushes\LineBrush\LineBrush.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Menu\CustomRuleTileMenu.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Brushes\GroupBrush\GroupBrush.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Tiles\RuleOverrideTile\AdvancedRuleOverrideTileEditor.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Tiles\IsometricRuleTile\IsometricRuleTileEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Brushes\RandomBrush\RandomBrush.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Tiles\RuleOverrideTile\RuleOverrideTileEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Menu\MenuItemOrder.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Brushes\LineBrush\LineBrush.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
      <None Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Editor\Unity.2D.Tilemap.Extras.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2021.3.10f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -360,6 +360,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Runtime">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Editor">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>

@@ -5,9 +5,11 @@ using Unity.Burst.Intrinsics;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using BehaviorDesigner.Runtime.Tasks.Unity.UnityPlayerPrefs;
 public class Player : MonoBehaviour
 {
-     
+    protected Vector3 faceDirection;//脸的朝向
+    protected Vector3 attackDirection;
     public TextMeshProUGUI plantText;
     public GameObject textPanel; 
     protected Animator animator;
@@ -80,6 +82,7 @@ public class Player : MonoBehaviour
                 animator.SetFloat("vertical",direction.y);
             }
             animator.SetFloat("speed",direction.magnitude);
+            faceDirection = new Vector3(animator.GetFloat("horizontal"),animator.GetFloat("vertical"),0);
         }
     }
 
@@ -101,4 +104,9 @@ public class Player : MonoBehaviour
             });
         }
     }
+    protected Vector3 MousePosition(){
+      var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+      mousePosition.z = 0;
+      return mousePosition;
+   }
 }

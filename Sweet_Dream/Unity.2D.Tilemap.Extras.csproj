@@ -36,11 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Runtime\Tiles\RuleOverrideTile\RuleOverrideTile.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Runtime\Tiles\RuleOverrideTile\AdvancedRuleOverrideTile.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Runtime\Tiles\AnimatedTile\AnimatedTile.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Runtime\GridInformation\GridInformation.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Runtime\Tiles\IsometricRuleTile\IsometricRuleTile.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Runtime\Tiles\RuleOverrideTile\RuleOverrideTile.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Runtime\Tiles\HexagonalRuleTile\HexagonalRuleTile.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Runtime\Tiles\RuleTile\RuleTile.cs" />
      <None Include="Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3\Runtime\Unity.2D.Tilemap.Extras.asmdef" />
@@ -349,6 +349,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Runtime">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Editor">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>

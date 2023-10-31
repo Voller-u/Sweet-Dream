@@ -37,22 +37,22 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteSkin.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteSkinBatch.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\UpdateBoundsJob.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SkeletonAsset.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\Bone.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteLib\SpriteLibraryData.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\BufferManager.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\TransformAccessJob.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\NativeArrayHelper.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteSkinUpdateHelper.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\AssemblyInfo.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteSkinUtility.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteLib\SpriteLibrary.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\NativeCustomSlice.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteLib\SpriteResolver.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteLib\SpriteLibraryAsset.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteLib\SpriteLibrarySourceAsset.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteSkinBatch.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SkeletonAsset.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\TransformAccessJob.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteSkinUpdateHelper.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteLib\SpriteLibraryAsset.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\SpriteSkinComposite.cs" />
      <None Include="Library\PackageCache\com.unity.2d.animation@7.0.7\Runtime\Unity.2D.Animation.Runtime.asmdef" />
     <Reference Include="UnityEngine">
@@ -360,6 +360,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Runtime">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Editor">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>

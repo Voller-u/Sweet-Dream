@@ -36,17 +36,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\DynamicDependency\PreserveDependencyAttribute.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\Utils\UnityThreadUtils.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\IUnityServices.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\Initialization\InitializationOptions.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\Initialization\UnityProjectNotLinkedException.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\Initialization\ServicesInitializationException.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\UnityServices.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\CommonErrorCodes.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\AssemblyInfo.cs" />
-     <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\DynamicDependency\PreserveDependencyAttribute.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\RequestFailedException.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\Initialization\ServicesInitializationState.cs" />
-     <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\Utils\UnityThreadUtils.cs" />
-     <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\IUnityServices.cs" />
-     <Compile Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\Initialization\InitializationOptions.cs" />
      <None Include="Library\PackageCache\com.unity.services.core@1.4.2\Runtime\Core\Unity.Services.Core.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2021.3.10f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -353,6 +353,12 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Runtime">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Editor">
+        <HintPath>E:\Sweet_Dream\Sweet_Dream\Assets\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
         <HintPath>E:\Sweet_Dream\Sweet_Dream\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
