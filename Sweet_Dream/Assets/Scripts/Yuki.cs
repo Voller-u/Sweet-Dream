@@ -28,13 +28,24 @@ public class Yuki : Player
          GameObject bul = Instantiate(bullet2);
          bul.transform.parent = transform;
          bul.transform.localPosition =new Vector3(0,0,100);
-         if(attackDirection.x ==0) bul.transform.localEulerAngles = new Vector3(235-attackDirection.y*80,-90,-90);
-         else bul.transform.localEulerAngles = new Vector3((float)(Math.Acos(attackDirection.x/Math.Sqrt(attackDirection.x*attackDirection.x + attackDirection.y*attackDirection.y))/Math.PI*2*80+75),-90,-90);
-         Debug.Log(attackDirection);
-         Debug.Log((float)(Math.Acos(attackDirection.x/Math.Sqrt(attackDirection.x*attackDirection.x + attackDirection.y*attackDirection.y))/Math.PI*2*80+75));
-         Debug.Log(bul.transform.localEulerAngles);
+         float offsetAngle = CalculateAngle(attackDirection);
+         if(attackDirection.x ==0) bul.transform.localEulerAngles = new Vector3(235-attackDirection.y*80,270,270);
+         else bul.transform.localEulerAngles = new Vector3(offsetAngle/90*80+75,270,270);
+         // Debug.Log(attackDirection);
+         // Debug.Log(offsetAngle);
          //bul.GetComponent<MagicAttacks_Projectile>().Setup(attackDirection);
       }
+   }
+
+   /// <summary>
+   /// 计算二维方向向量偏移x轴的角度
+   /// </summary>
+   /// <param name="direction"></param>
+   /// <returns></returns>
+   private float CalculateAngle(Vector3 direction){
+      float x = direction.x,y = direction.y,len = (float)Math.Sqrt(x*x + y*y);
+      if(y > 0) return (float)(Math.Acos(x / len)*180/Math.PI);
+      else return (float)((2*Math.PI - Math.Acos(x/len))*180/Math.PI); 
    }
 
    /// <summary>

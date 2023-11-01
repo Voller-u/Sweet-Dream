@@ -27,8 +27,8 @@ public class Enemy : MonoBehaviour
     protected virtual void Update()
     {
         var offset = (player.transform.position - transform.position).normalized;
-        transform.position = new Vector3(transform.position.x + speed * offset.x * Time.deltaTime,
-        transform.position.y + speed * offset.y * Time.deltaTime,0);
+        // transform.position = new Vector3(transform.position.x + speed * offset.x * Time.deltaTime,
+        // transform.position.y + speed * offset.y * Time.deltaTime,0);
     }
 
     protected void Init(){
