@@ -235,7 +235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 300c46fb5dc61c942b4f159e881da108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  curHealth: 0
+  maxHealth: 100
   speed: 2
   curSpeed: 0
   attackInit: 0
@@ -703,7 +704,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 300c46fb5dc61c942b4f159e881da108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  curHealth: 0
+  maxHealth: 100
   speed: 2
   curSpeed: 0
   attackInit: 0
@@ -743,7 +745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 300c46fb5dc61c942b4f159e881da108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  curHealth: 0
+  maxHealth: 100
   speed: 2
   curSpeed: 0
   attackInit: 0

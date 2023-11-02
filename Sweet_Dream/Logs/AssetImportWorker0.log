@@ -1,0 +1,2160 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.10f1c1 (fad0948fb939) revision 16437396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit ProfessionalEducation' Language: 'zh' Physical Memory: 16005 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.10f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Sweet_Dream/Sweet_Dream
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+10176
+Successfully changed project path to: E:/Sweet_Dream/Sweet_Dream
+E:/Sweet_Dream/Sweet_Dream
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 117.50 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1c1 (fad0948fb939)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.10f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Sweet_Dream/Sweet_Dream/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.10f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.10f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.10f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2021.3.10f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002118 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.18 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.513 seconds
+Domain Reload Profiling:
+	ReloadAssembly (513ms)
+		BeginReloadAssembly (49ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (390ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (78ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 112.16 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.159 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1159ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (890ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5611 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (479.7 KB). Loaded Objects now: 6097.
+Memory consumption went from 226.0 MB to 225.6 MB.
+Total: 3.853500 ms (FindLiveObjects: 0.472600 ms CreateObjectMapping: 0.169200 ms MarkObjects: 2.998400 ms  DeleteObjects: 0.211800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 785885.888750 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa1ea2ee9b04a0be942fab28a60eae2') in 0.105275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.682974 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5de0ba8c490516f083119eec325b5e') in 0.018342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.218228 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81aa2252d89fed6510164965add131d6') in 0.014890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.999900 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e43fb0ffd85336062390b6067bd4e7') in 0.016528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.191683 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f729a990a0e3cb60850d1ff6007cf5a9') in 0.015306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.395992 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2e09ee476941885bafde4b31489206') in 0.014313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797054 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b15d25a367bbd9bdd16273415fd4ed6') in 0.016066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.882782 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b452e626f64a8dfdee078967621e1752') in 0.016037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.612324 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878cc54c052defda03cc7ae8312b8b51') in 0.016942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.602578 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1ccf2f57bc246837d7e6a941ba9278') in 0.015242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.441231 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c06c1fde2a885b03920387488b0a0f1') in 0.016629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.596890 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa838ab1a1eaf90a998207355a1c4c2d') in 0.016105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.176461 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff31134134e9d7896711bdb53eb202c1') in 0.014989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797794 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30195b8ff3e62c84ff5ebeadcbc893a6') in 0.017037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.992046 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a12dbeba27b92b6b5010fe824ccf5e6') in 0.015986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.601058 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2262cb9cdf55f26841c03b3163569e60') in 0.015678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.387206 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2bd2148a2706130a8b04eeac6ff513') in 0.019243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.976235 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ba0fbe5a5f8640eb9bd8735d4dbea5') in 0.014386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.594418 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ee5c3178358cc1474643bfbb3d26e5') in 0.014338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.624627 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeca7be6cfd401f9f87a8228ccb7fd7f') in 0.015980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 177.044362 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d03f34154351446279062057fed82c') in 0.017327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.773067 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9432ad993854fd157c1bc7c8d9d9e021') in 0.018104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.244293 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b138513547ac90bd91a03e60c9ab5215') in 0.018565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.794402 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f15f893a8e574ba274b5ccd6d744b3') in 0.015030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.357632 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0ee410adfa7a3541a8d9d8b582a3d5') in 0.021117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.448282 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417bd695897450a06b6330008283b3e3') in 0.017541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.837862 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fb3f3ac25ece9a68288eb04411baa7') in 0.021518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.884736 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43234c4ca56064f6c443de8d69b5e87') in 0.014457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.469110 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b01a9597fed679b6b12df1cbb005a9b') in 0.014402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.612387 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bed02e326bc79f7235945ca56ff94d1') in 0.017500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.986658 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e539a76c17476faf2b48250c6a5839b') in 0.017526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.210072 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb408f06073f6212b0ca97eaf5b0916') in 0.017702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.181774 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc0b7612bb6096e2f203ba172448fae') in 0.015058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.196359 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b191460a202ba506161a4f95a4b68d') in 0.013028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.814872 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f324b075b2493a3ef481d3768f9f277') in 0.014261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.397376 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6412d7150b16bcdcbe66ce135e92452f') in 0.014841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.694456 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7971027d5a537d557fc13d4d39a371a6') in 0.018623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.275691 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5923b9b2ae78c615c3f0ee507e12f894') in 0.015246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.399260 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d54cf8628c0180b359a075b476a712') in 0.017400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.505204 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a11fc8bb85fe0e22c7aaa7b1b254ef') in 0.014791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.190757 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3881df050c9d8e38aa744e80ebfe5fc') in 0.013666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.212897 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666c95121642254643d75ee726faaea0') in 0.013336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.779912 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c0ade21f0d8b9ee8dc09e0881d3668') in 0.014442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.686298 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4ec20513a139940aad710bdbee0ffa') in 0.016947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.462013 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fc4f8b16c58ba0081951de964ce88f') in 0.017499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.990638 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b41bc8b2d5c4e0f7651f9347837abed') in 0.014987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.586839 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bfb86b27cc3f76ccda97843dd690da') in 0.014798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.590549 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8874b6ba6ea12a4f0ac44554fc9e075') in 0.014721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.580951 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ff1080c8f6b3974f31d9877a09a88b') in 0.016082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.632805 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8657bce4ee07307c494ab685ed27afa0') in 0.016370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.280010 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b90c3855be3d7da403c514a7727415') in 0.015632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.588519 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1349e1b75870605cef78524925d70658') in 0.020500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.790857 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8dea3e5affda4c07a634d5d6566148') in 0.015580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.198227 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b248af7e4cc27648c2896c76403cc32e') in 0.013571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.213766 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c548d8bb65df26440fb3f584cf8267') in 0.014769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.874640 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da318ddfed7c9095a52ef297b16984e9') in 0.014591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.152346 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb93e13a7ffe4770e61792d7b6e7e11') in 0.017417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.380357 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff985eb632f27fa9206e7744c3760094') in 0.017509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.789247 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a11cc9aaf0fe9f8432251612140ef3') in 0.014763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.787204 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9c83dde98ff654ad998605f81822d8') in 0.014078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.600542 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84333027ff3b2d94a344ea381e78efe8') in 0.015279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.994272 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c6632c7ff2cd18cf24613ace48653d') in 0.015248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.788424 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f5cb04b991e0b6ee63d687c68abdbd') in 0.016983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.396012 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c8a605f978107be4b9a5522c6db4d6') in 0.018743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.809791 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1767aafc6307a63fd90ca88d11598671') in 0.014876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.589658 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12dc3c99586f671a6c9e0cd02220b14') in 0.016868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.190062 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f625ee23cd71e220eb5d34982fa7d1') in 0.014564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.596122 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42df412b1e95e1cd1fd416e1764f8d5') in 0.016990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.211520 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cf203e6aa00eaaf75362964a95b5ab') in 0.015252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.384667 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8127b8ffd085aa9f97c0a70f303408d') in 0.014280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.805896 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f246a7ec1838855d48b0c7585b7c70') in 0.014698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.794600 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cb1f046d82f407221bc0fe2747f22a') in 0.018580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.215442 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002100bc782fe62e8678c02f4f495d43') in 0.016531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.587468 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5585988a46d3f61fae1ac4b883adef5b') in 0.015250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.791189 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04c3f06a2cf07501784d4e0fdc47ff3') in 0.015992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.992088 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb8fe2a5f8d94950bd1e40b91a5ab5d') in 0.014838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.193417 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fb8b41db1ded9a99a22ecd470707cb') in 0.016399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.983150 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441de0376ecff5ce3514a4a19d3ef3f2') in 0.017454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.187252 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36007df1656e755fa0fc2afba791180') in 0.015990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.074930 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abae001ff7b23f62a17efc5ee98633ed') in 0.014816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.408092 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0560117721a85677e9390ba7f2344669') in 0.014634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.609105 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d3fd9f8934fa2ff940ca9f03f198bc') in 0.018787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.009937 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b849a816df6080f785bedaaa29a55f') in 0.015718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.591666 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502757a70cf58a70801b4aaa216d0e18') in 0.014147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.385812 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dbbc9c8489f01aa79d483ae0e64252') in 0.015229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.647976 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f9dc880de9f77808b3954bf7e2afd3') in 0.017570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.678848 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262c0528c4a3faf48b3028c72298410f') in 0.015298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.041289 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2968e7af6bb780517ca23adb39f49736') in 0.016438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.183808 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fce09e2ad978d2ad5bcf5c0505fd631') in 0.018003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.391010 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb4207a5cbd26c152c95e3ddeb1f5e5') in 0.015474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.586140 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6c3e38311ce7e713dd38bca3644f1e') in 0.015346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.793664 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e36846ac94d0d08385a80c8c6b3c46a') in 0.017490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.586232 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b66b0d8332d2440e5465f853ed0cf4') in 0.019374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.988721 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b36def7851b8cc42256f49aaacf74ec') in 0.017866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.989027 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab454d1bf04349cce96f85e6da4a72e') in 0.014321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.188747 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d94c36c41dba71ae6e300cf19658bc') in 0.014227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.390231 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b7fcff7dafa00b3b105f325744a4dd') in 0.017984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.594843 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34903ec9bc6db09ed3439c3f1361bb7') in 0.014482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.602292 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eb4f8ddd58f4dbb224e6f932f16258') in 0.014773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.990269 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e117e639790d089a44db1c09f20f52ba') in 0.016470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.983793 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae76c6996e09ba4eb5b759bef4dbedce') in 0.015193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.986936 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466845310c8fc6390a6140038cd94d41') in 0.016803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.787109 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1601a48bf58b4af0770bde6983967c22') in 0.014503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.801211 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b851ea9216ddeab1f8a9c6ce6ce9321f') in 0.015103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.390049 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0521de010ab44c5049905ed9129953f') in 0.016400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.206781 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025db89963efb8d32f44461e6a4d227b') in 0.015257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.407354 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad211706be95ff62113ac64dbc40c71') in 0.015081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.183488 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a0c947db0cc8c52b5b3ee3dd2cd775') in 0.014468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.398532 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0720011f2c110751e5f862b2720bf1a') in 0.014998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.200954 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a466703468ceafe947badc8ad41c2f5') in 0.014897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.590645 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c0993e079f5d631165c883f70b96ed') in 0.014043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.000003 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405514782629f247357f91ea92df512a') in 0.015097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.989527 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b240348a0dca5655802feb3086b31a6') in 0.018143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.604424 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba227a768fcdaf96b39c3502629cd42') in 0.014952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.186763 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d15bee84670d7673e5195f2f70122c') in 0.015713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.586075 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c11d5f235e3d8c20243c03859c2bfe') in 0.015459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.985022 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cf0958d66a3bc02d61cc6cd889a350') in 0.014865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.991612 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229e916ad5518da45e27f142e246118c') in 0.016131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.185378 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef360341431896a06efae94aa5ba0f26') in 0.015649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.788722 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd3ac0ec1b0dc7e95b6e6fcd6112e25') in 0.015596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.089569 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67392c196c63dd51a2a6f9aa970d71b7') in 0.026450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.014963 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4a416e7e85b4d6e25137c27f23aeb3') in 0.014731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.998820 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52cfb3a355c48ff042724e7d6e411121') in 0.017219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.631304 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6325c5a9f9234a7e1f41685df3373356') in 0.016296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.476833 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7fd9f1e9eedda78a966f7d54f03acb') in 0.013541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.534934 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46424b809aa0d705b1cb152fc5235dd4') in 0.022471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.709483 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0898d2ebb211b9c5068d131a8c2e7f73') in 0.022301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.587526 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74a1071cecff322860f6fde8e3dfe36') in 0.016922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.243759 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6875a05601e8453063ef3be9efadb21') in 0.016686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.188994 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fbbe2b7bd374dabaf2e1da5929bc67') in 0.024431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.185506 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a2d3749e2be555401ed9ac71c6a283') in 0.016896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.400240 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90145b6dde725a3d9f79796a0fe690d') in 0.017660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.019866 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f2f890972950069e38c780452f3970') in 0.020977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.452331 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3895dcdddfa9dddc1f5423e3c04fe7') in 0.031570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.768866 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa382e315769cf9b5a16a2005983b0a0') in 0.026165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.980649 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779283848a29b98fe1c0f87da5b08e9f') in 0.030054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.148763 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2717dc80c2847d1f43a5de76b82ce957') in 0.021750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.177649 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04140607656fc1ad8d50f5ba662577e4') in 0.014998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.187766 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff29b23fd1e185bc30e4062822f5846') in 0.014550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.790924 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dec1e0525c8a8192e6525cf1635f42') in 0.014712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.182692 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab28f177c141cf57d2f3e635e01fedcb') in 0.017700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.800358 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa18f3f4b5d36e482c6668f1d07fe627') in 0.014768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.990639 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea2391a4c8fd158ea90b0d0afcce999') in 0.014764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.787735 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259a92f93c3f44af066dab805bca9d1e') in 0.016570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.799246 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e903c23f7a3521e3d852743a8381483') in 0.014670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.192055 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bde6e964c5ff285da95a21e263f40bc') in 0.015381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.884992 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9836a92f92e051ab79f8199c5c034bd4') in 0.014185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.394498 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9834a306be90993489a3dfb0251d5d02') in 0.017734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.968372 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d723250de1a37983ea1f919947c62e8') in 0.015080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.175046 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4461f0b605940cc824bf921df23e8c01') in 0.014009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.031297 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d3e9434755e89f682112637b916b96') in 0.017368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.577294 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be59cc90059ed16b5b35288cc30fd99') in 0.014740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.038126 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8d0a50e2ea431103f7df76becd09d2') in 0.014578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.010237 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e873d58cfd2f1ff29e9914664e8189') in 0.014821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.201182 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139050c3ca4361dcba46132e9a804de3') in 0.015875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.384693 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea592b96964b17b3ab891864e0f571aa') in 0.014417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.821387 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035c364b8a3158413fdf05198b71f47a') in 0.015889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.204539 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74720e71177578292c0211d869ff5b99') in 0.017657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.086178 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43a91039c39b2ab2a2da2bc6e1d86c3') in 0.017795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.993071 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec610cded382fe52708b7dbefaced04b') in 0.015593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.612339 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd679b8d59a67bb7846a7598f85e47a87') in 0.016735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.981379 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04298919b93bb0497d72d307f716b483') in 0.015541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.784476 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45549d4d55f504f24707133ce1e91c5') in 0.015574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.413194 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d26385e4beaf05648b70469619bd1d5') in 0.018425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.787607 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac294c244ba41999878077aa82bc37b') in 0.016665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.593376 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8221f52953e39e8989fd3a29cc3b49e') in 0.014789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.010558 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea39358ca619b078cf7362c06a64ed37') in 0.016516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.791411 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5afb9060d33878ccc9816a5bdb2e7ad') in 0.015366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.392300 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721d77bbea7ed92006287a220c4cc396') in 0.015422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.785651 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80600df94f0870f967d66d9a07c9913') in 0.015827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.584786 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b5958cb9046f225b8b4dc8e8c567f2') in 0.016314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.604791 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acaf3e73e8ffa4c2aef5724d93efc1f') in 0.015195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.973083 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84008fa803ce5e6644c6ba6565b6244d') in 0.014739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.187093 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c304c9485ca003d668305b77755c22') in 0.015808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.989685 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a4e43400a64e1e4e40c6a6dd92b4b0') in 0.015329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.581021 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878c8bc852754d82bf5407bf69d91176') in 0.015643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.998606 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5717ffb6cab3b59d1dee4974e432340') in 0.014805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.014904 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3b6121130da3a69a9c03230ae82ecf') in 0.014639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.773267 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d5f7c6d5097265d9f5c80d54a9f977') in 0.015077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.193049 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf637d63144887d385967e001fd1b02') in 0.015004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.404316 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df3db10b75f5b8933c31bef2139e90f') in 0.015499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.187506 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa460ed332408148a582341148945a0b') in 0.015083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.242144 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61890ec9870c9dd9af94deca2130d5f3') in 0.016553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.586790 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9290777008eea87dc4daecf36cd443') in 0.015029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.602858 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd102045a6263dcdf1213ddc568399fbd') in 0.014927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.177395 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985a504487164c82226d66065e90122f') in 0.014126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.386872 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044df8b7ac2b769994e2381fdf8be327') in 0.015581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.662062 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab2c3ded6b0d36163d3170f627e13fd') in 0.014698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.978760 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd4cf6a9ed89382ade9cd8001261be4') in 0.018500 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Domain Reload Profiling:
+	ReloadAssembly (946ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (733ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.61 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (508.8 KB). Loaded Objects now: 6109.
+Memory consumption went from 224.1 MB to 223.7 MB.
+Total: 3.655900 ms (FindLiveObjects: 0.504000 ms CreateObjectMapping: 0.230200 ms MarkObjects: 2.707000 ms  DeleteObjects: 0.213500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69.276794 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc4640ea4d184c525a6dc41545214b5') in 0.065122 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (831ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (654ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.96 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (447.0 KB). Loaded Objects now: 6112.
+Memory consumption went from 224.1 MB to 223.7 MB.
+Total: 3.462000 ms (FindLiveObjects: 0.443000 ms CreateObjectMapping: 0.142800 ms MarkObjects: 2.592500 ms  DeleteObjects: 0.282600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013812 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Domain Reload Profiling:
+	ReloadAssembly (884ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (712ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.60 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (0.5 MB). Loaded Objects now: 6115.
+Memory consumption went from 224.3 MB to 223.7 MB.
+Total: 4.375500 ms (FindLiveObjects: 0.541900 ms CreateObjectMapping: 0.239800 ms MarkObjects: 3.324100 ms  DeleteObjects: 0.268200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1304ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1028ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.10 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (508.8 KB). Loaded Objects now: 6118.
+Memory consumption went from 224.2 MB to 223.7 MB.
+Total: 4.221600 ms (FindLiveObjects: 0.420200 ms CreateObjectMapping: 0.183000 ms MarkObjects: 3.255100 ms  DeleteObjects: 0.361900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (613ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.64 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (447.1 KB). Loaded Objects now: 6121.
+Memory consumption went from 224.2 MB to 223.7 MB.
+Total: 2.958700 ms (FindLiveObjects: 0.317700 ms CreateObjectMapping: 0.193600 ms MarkObjects: 2.227300 ms  DeleteObjects: 0.219000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Domain Reload Profiling:
+	ReloadAssembly (914ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.15 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (447.4 KB). Loaded Objects now: 6124.
+Memory consumption went from 224.2 MB to 223.7 MB.
+Total: 3.783400 ms (FindLiveObjects: 0.572800 ms CreateObjectMapping: 0.281800 ms MarkObjects: 2.654800 ms  DeleteObjects: 0.272100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019800 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Domain Reload Profiling:
+	ReloadAssembly (932ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (749ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.45 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (447.3 KB). Loaded Objects now: 6127.
+Memory consumption went from 224.2 MB to 223.8 MB.
+Total: 2.865100 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.172700 ms MarkObjects: 2.200200 ms  DeleteObjects: 0.206400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019971 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Domain Reload Profiling:
+	ReloadAssembly (891ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (721ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.80 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (453.4 KB). Loaded Objects now: 6130.
+Memory consumption went from 224.2 MB to 223.8 MB.
+Total: 3.736900 ms (FindLiveObjects: 0.473400 ms CreateObjectMapping: 0.220800 ms MarkObjects: 2.737900 ms  DeleteObjects: 0.303100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015647 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Domain Reload Profiling:
+	ReloadAssembly (886ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (709ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.16 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (447.2 KB). Loaded Objects now: 6133.
+Memory consumption went from 224.2 MB to 223.8 MB.
+Total: 3.799900 ms (FindLiveObjects: 0.379700 ms CreateObjectMapping: 0.322900 ms MarkObjects: 2.758600 ms  DeleteObjects: 0.337000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 263.739761 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab
+  artifactKey: Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Skills/SlashesPiercing/Void/PS_Slash_Void.prefab using Guid(402cb76f537cbd0488664d6f42b1df6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40118def96e2f4ff304ad14d15faf6d0') in 0.076764 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025133 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (837ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (654ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.08 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (509.3 KB). Loaded Objects now: 6136.
+Memory consumption went from 224.3 MB to 223.8 MB.
+Total: 3.375500 ms (FindLiveObjects: 0.284600 ms CreateObjectMapping: 0.179300 ms MarkObjects: 2.492100 ms  DeleteObjects: 0.418100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016985 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Domain Reload Profiling:
+	ReloadAssembly (888ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (720ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.53 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (493.6 KB). Loaded Objects now: 6139.
+Memory consumption went from 224.3 MB to 223.8 MB.
+Total: 3.474200 ms (FindLiveObjects: 0.475000 ms CreateObjectMapping: 0.205300 ms MarkObjects: 2.483500 ms  DeleteObjects: 0.308900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016947 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.43 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Domain Reload Profiling:
+	ReloadAssembly (947ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (773ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (427ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.15 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (447.4 KB). Loaded Objects now: 6142.
+Memory consumption went from 224.2 MB to 223.8 MB.
+Total: 2.799900 ms (FindLiveObjects: 0.292000 ms CreateObjectMapping: 0.179800 ms MarkObjects: 2.120900 ms  DeleteObjects: 0.206200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87.664885 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Shared/Materials/M_VFX_Radial_02_AB.mat
+  artifactKey: Guid(32854725fad22ea43b14e254057cf5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Shared/Materials/M_VFX_Radial_02_AB.mat using Guid(32854725fad22ea43b14e254057cf5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db427ca04a55fc883b90b41fda6a341') in 0.086713 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016185 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Domain Reload Profiling:
+	ReloadAssembly (792ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (614ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.55 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (493.6 KB). Loaded Objects now: 6178.
+Memory consumption went from 224.5 MB to 224.0 MB.
+Total: 2.711800 ms (FindLiveObjects: 0.283700 ms CreateObjectMapping: 0.164000 ms MarkObjects: 2.062700 ms  DeleteObjects: 0.200700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (739ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.37 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (447.4 KB). Loaded Objects now: 6181.
+Memory consumption went from 224.5 MB to 224.0 MB.
+Total: 3.236700 ms (FindLiveObjects: 0.396400 ms CreateObjectMapping: 0.127500 ms MarkObjects: 2.459900 ms  DeleteObjects: 0.251100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.774744 seconds.
+  path: Assets/Plugins/FX/Stylized VFX/Shared/Meshes/SM_VFX_Slash.obj
+  artifactKey: Guid(cb7b2f66ff4be734a81cb731a39bd85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/FX/Stylized VFX/Shared/Meshes/SM_VFX_Slash.obj using Guid(cb7b2f66ff4be734a81cb731a39bd85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7035dd6568214a4d9ea2600c4b9d806a') in 0.214168 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.769 seconds
+Domain Reload Profiling:
+	ReloadAssembly (770ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (597ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping

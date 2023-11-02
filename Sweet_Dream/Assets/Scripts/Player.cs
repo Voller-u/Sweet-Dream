@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     [Header("基本属性")]
-    protected float curHealth;
+    public float curHealth;
     public float  maxHealth;
     public float speed;//速度
     public float curSpeed;//当前速度

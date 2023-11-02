@@ -38,7 +38,7 @@ public class Yuki : Player
    }
 
    /// <summary>
-   /// 计算二维方向向量偏移x轴的角度
+   /// 计算二维方向向量偏移x轴正方向的角度
    /// </summary>
    /// <param name="direction"></param>
    /// <returns></returns>
@@ -54,7 +54,7 @@ public class Yuki : Player
    /// <returns>角色与敌人之间的单位方向向量</returns>
    private Vector3 GetClosestEnemyDirection(){
       int radius = 1;//探测半径
-      while(radius < 100){
+      while(radius < 50){
          Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position,radius);
          //如果探测到了碰撞体
          if(cols.Length > 0){

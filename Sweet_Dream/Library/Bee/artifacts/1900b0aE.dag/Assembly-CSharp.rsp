@@ -1018,6 +1018,7 @@
 "Assets/Scripts/Base/TimeManager.cs"
 "Assets/Scripts/Buff.cs"
 "Assets/Scripts/CameraFollwed.cs"
+"Assets/Scripts/Character/Player/Damage.cs"
 "Assets/Scripts/Classroom/Content.cs"
 "Assets/Scripts/Collectable.cs"
 "Assets/Scripts/Enemy.cs"

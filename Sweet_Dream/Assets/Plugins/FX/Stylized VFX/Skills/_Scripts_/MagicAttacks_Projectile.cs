@@ -6,6 +6,7 @@ using System.Text;
 
 public class MagicAttacks_Projectile : MonoBehaviour
 {
+    public float attackRate;//攻击倍率
     private Vector3 projectileDir;
     public GameObject FX_Hit;
 
@@ -49,6 +50,7 @@ public class MagicAttacks_Projectile : MonoBehaviour
         if(other.gameObject.tag == "Enemy"){
             //BuffDistributer.
             Debug.Log("打中了！");
+            // GameObject enemy = other.GetComponent<Ememy>();
             GameObject hitFX;
             hitFX = Instantiate(FX_Hit, other.transform.position, Quaternion.identity);
             hitFX.transform.position = new Vector3(hitFX.transform.position.x,hitFX.transform.position.y,100);
