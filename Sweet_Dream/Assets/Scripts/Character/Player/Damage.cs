@@ -27,7 +27,7 @@ public class Damage : MonoBehaviour
     }
 
     void Dead(){
-        
-        GetComponent<PolygonCollider2D>().enabled = false;
+        PolygonCollider2D pgc = GetComponent<PolygonCollider2D>();
+        if(pgc != null) pgc.enabled = false;
     }
 }

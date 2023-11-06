@@ -1028,6 +1028,7 @@
 "Assets/Scripts/Planting/Plant.cs"
 "Assets/Scripts/Planting/TomatoPlant.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/Skill.cs"
 "Assets/Scripts/TileManager.cs"
 "Assets/Scripts/UI/Dialog/Test.cs"
 "Assets/Scripts/UI/Inventory.cs"

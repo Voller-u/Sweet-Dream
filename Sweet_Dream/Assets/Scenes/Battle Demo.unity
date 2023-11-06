@@ -247,6 +247,7 @@ MonoBehaviour:
   curAttack: 0
   defenceInit: 0
   curDefence: 0
+  skills: []
   player: {fileID: 0}
 --- !u!50 &1165534016
 Rigidbody2D:
@@ -659,6 +660,8 @@ MonoBehaviour:
   curAttack: 0
   defenceInit: 0
   curDefence: 0
+  skills:
+  - {fileID: 0}
   player: {fileID: 0}
 --- !u!1 &1977184368
 GameObject:
@@ -700,6 +703,7 @@ MonoBehaviour:
   curAttack: 0
   defenceInit: 0
   curDefence: 0
+  skills: []
   player: {fileID: 0}
 --- !u!50 &1977184370
 Rigidbody2D:
