@@ -351,6 +351,7 @@
      <Compile Include="Assets\ProCamera2D\Examples\TopDownShooter\Scripts\Player\PlayerInput.cs" />
      <Compile Include="Assets\ProCamera2D\Code\Extensions\ProCamera2DShake.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\SharedVariables\CompareSharedQuaternion.cs" />
+     <Compile Include="Assets\Scripts\Skill.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Vector3\GetRightVector.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\CharacterController\GetHeight.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
@@ -714,7 +715,6 @@
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\BoxCollider\GetSize.cs" />
      <Compile Include="Assets\Behavior Designer\Runtime\Tasks\Unity\Transform\LookAt.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\Skill.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\___www.unityassetcollection.com___.txt" />
